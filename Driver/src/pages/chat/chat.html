@@ -1,0 +1,52 @@
+<!--
+  Generated template for the ChatPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header no-border>
+
+  <ion-navbar>
+    <ion-title>chat</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+
+
+<ion-content padding text-center class='yes-scroll'>
+    <div class='followed-items'>
+            <ion-list text-center>
+                <div text-center *ngFor="let event of eventList">
+                    <ion-item text-wrap detail-none no-lines class='driver' *ngIf='!event.user'>
+                       <p>{{event.driver}}</p>
+                    </ion-item>
+                    <ion-item text-wrap detail-none no-lines class='user' *ngIf='!event.driver'>
+                      <p>{{event.user}}</p>
+                     </ion-item>
+                  </div>
+              </ion-list>
+       
+    </div>
+  </ion-content>
+  
+
+<ion-footer>
+  <ion-grid>
+    <ion-row>
+   
+          <ion-col>
+              <button id="container_1"  text-center detail-none class="button" icon-start color="primary" (click)="closeChat()">
+                    Close
+                    </button>
+           </ion-col>
+           <ion-col>
+              <button id="container_1"  class="button" detail-none text-center icon-start color="green" (click)="Send()">
+               
+                  New Message
+                  </button>
+           </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-footer>

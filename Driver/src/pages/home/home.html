@@ -1,0 +1,206 @@
+
+ <ion-content class='no-scroll'>
+
+    <div id="map">
+
+    <div class="topBar" >
+
+        <button *ngIf="hasNotPicked && hasEnded" no-lines detail-none class='button' clear padding  icon-only ion-button menuToggle>
+            <ion-icon name="ios-menu"></ion-icon>
+          </button>
+
+          <!-- <div id='buttonContainer2'>
+          <button *ngIf="hasNotPicked && !hasEnded"  text-center class="button" icon-only color="danger" (click)="alertMe()">
+              <ion-icon color='nav-color' name="trash"></ion-icon>
+              </button>
+            </div> -->
+        <!-- <ion-title [hidden]="pop.onRequest"> -->
+
+<!--                
+            -->
+              
+            
+               
+         <div id='buttonContainer'>
+          <button  *ngIf="!this.pop.loggedOff && hasEnded" class='button' color="primary" (click)='goOffline()'>
+             {{lp.translate()[0].e6}}
+       </button>
+       <button class='button' *ngIf="this.pop.loggedOff && hasEnded && !hasNotFoundMap" (click)='goOnline()'>{{lp.translate()[0].e7}}</button>
+   
+       <button class='button' *ngIf="this.pop.loggedOff && hasNotFoundMap"><ion-spinner color='nav-color' name="bubbles"></ion-spinner></button>
+       
+       
+
+          <button *ngIf="hasNotPicked && !poolRequest && !hasEnded" text-center class="button" icon-start color="danger" (click)="SendMessage()">
+            <ion-icon color='light' name="chatbubbles"  >
+              <ion-badge *ngIf='notification' id="cart-badge">New</ion-badge>
+            <!-- <ion-badge *ngIf='notification' id="notifications-badge" color="danger">!</ion-badge> -->
+          </ion-icon>
+              </button>
+       </div>
+
+
+   
+        <!-- </ion-title> -->
+       </div>
+      </div> 
+ </ion-content>
+
+<!-- <ion-content >
+
+    
+   
+  
+
+    </ion-content> -->
+
+
+
+<ion-footer no-border *ngIf="!hasEnded">
+    <button *ngIf="hasNotPicked" text-center class="buttons" icon-only color="danger" (click)="hoseMe()">
+       <ion-icon *ngIf="!hideMe" color='nav-color' name="arrow-up"></ion-icon>
+       <ion-icon *ngIf="hideMe" color='nav-color' name="arrow-down"></ion-icon>
+        </button>
+  <div id="map_layer">
+              
+
+            <button detail-none [hidden]='!hideMe'  class="button_1" ion-item icon-start >
+                  <ion-grid>
+                    <ion-row>
+                      <ion-col [hidden]="!hasNotPicked"> 
+                          <!-- <img class="profile-pic" [src]="picture"/> -->
+                          <p>{{name}}</p>
+                      </ion-col>
+                      
+                      <ion-col>
+                          <button padding id='container' *ngIf="hasNotPicked" color="gery" detail-none icon-start>
+                              <ion-item color="secondary" id='rides'> 
+                                 <ion-icon  color="gery"  name="timer" item-start></ion-icon>
+                                 Arrival
+                                 <ion-badge color='gery' item-end>{{dProvider.time}}</ion-badge>
+                               </ion-item>
+                             
+                             </button>
+                  
+                  
+                      </ion-col>
+                      
+                      <ion-col [hidden]="!hasNotPicked">
+                          
+                                              
+                                             
+                      </ion-col>
+                    </ion-row>
+                  </ion-grid>   
+               </button>
+        
+
+
+      
+
+
+     
+        <ion-grid [hidden]='!hideMe'>
+          <ion-row>
+     <ion-col>
+        <button id="container_1" [hidden]="hasNotPicked" text-center detail-none class="button" icon-start color="primary" (click)="gotoDestination()">
+              {{lp.translate()[0].d10}}
+              </button>
+              <button  id="container_1" [hidden]="!hasNotPicked" text-center detail-none class="button" icon-start color="gery" (click)="gotoMap()">
+                    {{lp.translate()[0].d9}}
+                    </button>
+     </ion-col>
+     <ion-col>
+        <button *ngIf="hasNotPicked && !hasEnded" id="container_1" class="button" detail-none text-center icon-start color="green" (click)="alertMe()">
+         
+            Cancel
+            </button>
+     </ion-col>
+
+     <ion-col>
+      <button *ngIf="hasArrived" id="container_1" class="button" detail-none text-center icon-start color="green" (click)="Arrived()">
+       
+          Arrived
+          </button>
+   </ion-col>
+
+     <ion-col>
+      <button [hidden]="pop.hasPicked" id="container_1" class="button" detail-none text-center icon-start color="green" (click)="call()">
+       
+          {{lp.translate()[0].d8}}
+          </button>
+   </ion-col>
+    
+     <ion-col>
+        <button id="container_1" [hidden]="!pop.hasPicked" class="button" detail-none icon-start color="gery" (click)="ConfirmDrop()">
+          
+          {{lp.translate()[0].d7}}
+          </button>
+          <button  id="container_1" [hidden]="pop.hasPicked" class="button" detail-none text-center icon-start  color="primary" (click)="ConfirmPickup()">
+            
+            {{lp.translate()[0].d6}}
+              </button>
+     </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+      <ion-grid *ngIf="pop.hasPicked" >
+        <ion-row>
+          <ion-col>
+              <button padding id='container' color="gery" detail-none icon-start>
+                  <ion-item color="secondary" id='rides'> 
+                     <ion-icon  color="gery"  name="timer" item-start></ion-icon>
+                    Estimated Arrival
+                     <ion-badge color='gery' item-end>{{dProvider.time2}}</ion-badge>
+                   </ion-item>
+                 </button>
+          </ion-col>
+          
+          </ion-row>
+          </ion-grid>
+
+          <ion-grid>
+              <ion-row>
+                <ion-col>
+                    <button padding id='container' color="gery" detail-none icon-start>
+                        <ion-item color="secondary" id='rides'> 
+                          <ion-icon  color="gery"  name="cash" item-start></ion-icon>
+                          Price Estimate
+                           <ion-badge id='myBadge' color='primary' item-end>{{settings.appcurrency}}{{ridePrice}}</ion-badge>
+                         </ion-item>
+                       </button>
+                </ion-col>
+                </ion-row>
+                </ion-grid>
+
+
+</div>
+    
+</ion-footer>
+
+
+   
+<ion-footer no-border *ngIf="hasEnded" id='lower_items'>
+
+    <ion-item no-lines detail-none *ngIf='news && !hideNews' color="primary" id='rides'> 
+        <!-- <ion-icon  color="secondary"  name="ios-cash" item-start></ion-icon> -->
+        {{this.newsti}}
+        <ion-badge color='secondary' item-end (click)='openNews()'>View More</ion-badge>
+      </ion-item>
+    
+          
+                <ion-item no-lines detail-none color="secondary" id='rides'> 
+                   <ion-icon  color="primary"  name="ios-cash" item-start></ion-icon>
+                   {{lp.translate()[0].c1}}
+                   <ion-badge color='primary' item-end>{{settings.appcurrency}}{{earnings}}</ion-badge>
+                 </ion-item>
+               
+
+                 <!-- <ion-item no-lines detail-none color="secondary" id='rides'> 
+                    <ion-icon  color="primary"  name="ios-star" item-start></ion-icon>
+                    {{lp.translate()[0].l8}} 
+                    <ion-badge color='primary' item-end>{{ph.rating}}</ion-badge>
+                  </ion-item> -->
+              
+</ion-footer>

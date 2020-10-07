@@ -1,0 +1,182 @@
+page-schedule {
+    ion-content{
+  
+      .drive{
+          color: black;
+          ion-icon{
+            font-size: 0.8em;
+            padding: 12px;
+            color: color($colors, gery, base);
+           // border-bottom: 1px solid color($colors, light, base);
+        }
+      }
+  
+      .price{
+        color: color($colors, green, base);
+        font-size: 1.67em;
+        padding-top: 14px;
+        padding-bottom: 14px;
+
+        border-radius: $border;
+        ion-icon{
+            font-size: 0.8em;
+            padding: 5px;
+            color: color($colors, gery, base);
+        }
+      }
+
+
+      .date{
+        color: orange;
+        font-size: 1.47em;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        border-bottom: 1px solid color($colors, nav-border-bottom, base);
+       // border: 1px solid color($colors, light, base);
+       //border-bottom: 1px solid color($colors, light, base);
+       // border-radius: $border;
+        ion-icon{
+            font-size: 0.8em;
+            padding: 5px;
+            color: color($colors, gery, base);
+        }
+      }
+
+      .time{
+        color: rgb(44, 136, 241);
+        font-size: 1.17em;
+        padding-top: 14px;
+        padding-bottom: 14px;
+       // border-bottom: 1px solid color($colors, deep, base);
+       // border: 1px solid color($colors, light, base);
+       //border-bottom: 1px solid color($colors, light, base);
+       // border-radius: $border;
+        ion-icon{
+            font-size: 0.8em;
+            padding: 5px;
+            color: color($colors, gery, base);
+        }
+      }
+      
+      
+
+      .location{
+        width: auto;
+       // border-bottom: 1px solid color($colors, light, base);
+       padding-top: 8px;
+       padding-bottom: 8px;
+        p{
+            font-size: 1.3em;
+            height: auto;
+          }
+
+        ion-icon{
+            font-size: 0.8em;
+            padding: 5px;
+            color: orange;
+        }
+      }
+
+      .destination{
+        width: auto;
+       // border-bottom: 1px solid color($colors, light, base);
+       padding-top: 8px;
+       padding-bottom: 8px;
+        ion-icon{
+            font-size: 0.8em;
+            padding: 5px;
+            color: darkslateblue;
+        }
+      }
+      
+
+      p{
+        font-size: 1.3em;
+        height: auto;
+        line-height: 100px;
+        width: auto;
+      }
+
+      .duedate{
+        color: white;
+        width: auto;
+        // overflow:hidden;
+        background:color($colors, green, base);
+        //font-size: 1.27em;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 12px;
+        padding-right: 12px;
+        border: 1px solid color($colors, doom, base);
+        border-radius: $border;
+        ion-icon{
+            font-size: 0.8em;
+            padding: 5px;
+            color: darkslateblue;
+        }
+      }
+
+      .onduedate{
+        color: white;
+        width: auto;
+        // overflow:hidden;
+        background:color($colors, danger, base);
+        //font-size: 1.27em;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 12px;
+        padding-right: 12px;
+        border: 1px solid color($colors, doom, base);
+        border-radius: $border;
+        ion-icon{
+            font-size: 0.8em;
+            padding: 5px;
+            color: darkslateblue;
+        }
+      }
+  
+  
+  }
+
+  
+  #topcontent{
+    background: linear-gradient(color($colors, toper, base), color($colors, toper, base), color($colors, toper, base)) , url($myUrl2) no-repeat center center fixed;
+    width: 100%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 1.27em;
+    color: white;
+    button{
+        border: 1px solid color($colors, light, base);
+        vertical-align: middle;
+        width: 100%;
+    
+
+   
+  }
+  
+  }
+
+  h1{
+    background: color($colors, gery, base);
+    font-size: 1.67em;
+    padding-top: 14px;
+    width: auto;
+    padding-bottom: 14px;
+    //border: 1px solid color($colors, light, base);
+  
+    //color: color($colors, deep, base);
+  }
+
+  .followed-items{
+    ion-item{
+      margin-top: 15px;
+      margin-bottom: 15px;
+      border-radius: $border;
+      border: 1px solid color($colors, nav-border-bottom, base);
+  }
+   }
+
+  
+  }
+  

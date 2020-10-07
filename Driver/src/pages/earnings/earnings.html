@@ -1,0 +1,39 @@
+<!--
+  Generated template for the AboutPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header no-border>
+  
+    <ion-navbar color="nav-color">
+      <ion-title>Earnings</ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  <ion-content class="no-scroll" padding >
+  
+      <ion-title padding text-center>Total Earnings: {{earnings}}</ion-title>
+       
+      <ion-label text-center>
+        Enter ID to recieve earnings
+     </ion-label>
+  
+  <form id='myFomr' [formGroup]="cardpaymentForm" (submit)="AddCard()" novalidate>
+        
+      
+       
+            <ion-label color='primary' stacked>{{lp.translate()[0].uid}}</ion-label>
+            <ion-input id='tezt'  formControlName="card" placeholder="Enter Your Code" 
+              [class.invalid]="!cardpaymentForm.controls.card.valid && cardpaymentForm.controls.card.dirty"></ion-input>
+  
+        
+          <button class='button' ion-button block type="submit" [disabled]="!cardpaymentForm.valid">
+             Accept
+          </button>
+      
+        </form>
+      
+  </ion-content>
+  

@@ -1,0 +1,56 @@
+<ion-header  no-border>
+  <ion-navbar color="nav-color">
+    <ion-title>{{lp.translate()[0].b10}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding text-center class='yes-scroll'>
+  <div class='followed-items'>
+          <ion-list text-center>
+            <div text-center *ngFor="let event of eventList">
+              <ion-item *ngIf='event.name != null && event.hidden == false' (click)="goToEventDetail(event.id)">
+                  <div *ngIf='event.name == null'>
+                   
+                            <h2 class='date'><strong><ion-icon name="trash"></ion-icon>{{lp.translate()[0].c2}}</strong></h2>
+                        
+                     
+                     
+                    </div>
+                  <div  > 
+                     
+
+               
+                <ion-grid>
+                  <ion-row>
+                    <ion-col>
+                      <h2 *ngIf='event.price != 0' class='price'><strong><ion-icon name="ios-cash"></ion-icon>{{settings.appcurrency}}{{event?.price}}</strong></h2>
+      </ion-col>
+      <ion-col>
+          <button detail-none color="danger" no-lines text-center icon-start ion-item (click)="Delete(currentEvent.id)" >
+              <ion-icon color='nav-color' name="close"></ion-icon>
+              {{lp.translate()[0].c3}}
+          </button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+              
+                      </div>
+              </ion-item>
+            </div>
+            </ion-list>
+     
+  </div>
+</ion-content>
+
+   
+<ion-footer >
+    
+    <div class='topped-items'>
+        <ion-item color='secondary' no-lines text-center>
+      <ion-label class='date'><h2><strong>{{lp.translate()[0].c1}} {{settings.appcurrency}}{{earnings}}</strong></h2></ion-label>
+        </ion-item>
+    </div>
+  
+</ion-footer>
+

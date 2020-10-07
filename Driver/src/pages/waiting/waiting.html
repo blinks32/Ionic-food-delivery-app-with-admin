@@ -1,0 +1,17 @@
+<ion-header no-border>
+  <ion-navbar color="nav-color">
+    <ion-title text-center>
+        {{lp.translate()[0].l3}}
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div [ngStyle]="{'margin-top': 30 + '%'}">
+  <h3 text-center>{{lp.translate()[0].l4}}</h3>
+  </div>
+
+  <button  class='button' [ngStyle]="{'margin-top': 30 + '%'}" color="primary" ion-button block (click)="close()">
+      {{lp.translate()[0].i9}}
+</button>
+</ion-content>

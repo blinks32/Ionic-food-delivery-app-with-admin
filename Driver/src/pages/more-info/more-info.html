@@ -1,0 +1,68 @@
+<ion-header  no-border>
+  <ion-navbar color="primary">
+    <ion-title>Step 1</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding text-center class='yes-scroll'>
+    <div class='form'>
+
+        <ion-label text-center>
+           <ion-title>Personal Information</ion-title>
+          </ion-label>
+
+          <ion-list padding-left padding-right>
+            <ion-item>
+      <ion-label class='stack' padding color='primary' floating>{{lp.translate()[0].h2}}</ion-label>
+      <ion-input class='input' no-lines type="text" placeholder="eg John Snow" [(ngModel)]="name" ></ion-input>
+            </ion-item>
+            <ion-item>
+      <ion-label class='stack' padding color='primary' floating>{{lp.translate()[0].h10}}</ion-label>
+      <ion-input class='input' no-lines type="text" placeholder="eg xxxxxxxxxx" [(ngModel)]="number" ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label class='stack' padding color='primary' floating>{{lp.translate()[0].i1}}</ion-label>
+      <ion-input class='input' no-lines type="text" placeholder="eg Some Bank" [(ngModel)]="banks" ></ion-input>
+    </ion-item>
+     
+    <ion-label text-center>
+      <ion-title>Car Information</ion-title>
+        </ion-label>
+
+      <ion-item>
+      <ion-label class='stack' padding color='primary' floating>License</ion-label>
+      <ion-input class='input' no-lines type="text" placeholder="" [(ngModel)]="license" ></ion-input>
+      </ion-item>
+      <ion-item>
+      <ion-label class='stack' padding color='primary' floating>CarModel</ion-label>
+      <ion-input class='input' no-lines type="text" placeholder="" [(ngModel)]="model" ></ion-input>
+      </ion-item>
+      <ion-item> 
+      <ion-label class='stack' padding color='primary' floating>CarYear</ion-label>
+      <ion-input class='input' no-lines type="text" placeholder="" [(ngModel)]="year" ></ion-input>
+      </ion-item>
+      <ion-item>
+      <ion-label class='stack' padding color='primary' floating>CarPlate</ion-label>
+      <ion-input class='input' no-lines type="text" placeholder="" [(ngModel)]="plate" ></ion-input>
+      </ion-item>
+     
+  <ion-item padding>
+    <ion-label class='stack' padding  floating>Car Transmission</ion-label>
+    <ion-select [(ngModel)]="cartransmission" multiple="false">
+     <ion-option data-countryCode="1" value="1" selected>Automatic</ion-option>
+      <ion-option data-countryCode="2" value="2">Manual</ion-option>
+    </ion-select>
+  </ion-item>
+
+  </ion-list>
+
+
+
+   
+
+  <button padding ion-button  color="primary" id='mybutton' block (click)='signIn(userName)'>{{lp.translate()[0].b2}}</button>
+  
+
+    </div>
+
+</ion-content>

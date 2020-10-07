@@ -1,0 +1,43 @@
+<ion-header no-border>
+        <ion-navbar transparent>
+          <ion-title>
+            Login
+          </ion-title>
+        </ion-navbar>
+      </ion-header>
+
+
+<ion-content>
+ 
+    <form [formGroup]="loginForm" (submit)="loginUser()" novalidate>
+
+    <ion-grid class="grid-center">
+            <ion-row>
+              <ion-col col-12 text-center>
+                <ion-list padding-left padding-right>
+                  <ion-item>
+                    <ion-label floating>{{lp.translate()[0].f10}}</ion-label>
+                    <ion-input  formControlName="email" type="email" 
+                    [class.invalid]="!loginForm.controls.email.valid && loginForm.controls.email.dirty"></ion-input>            
+                  </ion-item>
+                  <ion-item>
+                    <ion-label floating>{{lp.translate()[0].g1}}</ion-label>
+                    <ion-input  formControlName="password" type="password" 
+                    [class.invalid]="!loginForm.controls.password.valid && loginForm.controls.password.dirty"></ion-input>
+                  </ion-item>
+                </ion-list>
+              </ion-col>
+              <ion-col col-12 text-center padding-left padding-right>
+                <button ion-button block type="submit" [disabled]="!loginForm.valid" class="login" >{{lp.translate()[0].g2}}</button>
+              </ion-col>
+          
+            </ion-row>
+          </ion-grid>
+  </form>
+   
+
+
+
+
+
+</ion-content>

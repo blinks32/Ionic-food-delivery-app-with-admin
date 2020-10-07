@@ -1,0 +1,71 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2017-12-09 09:51:45",
+    "containerVersion": {
+        "path": "accounts/2154833823/containers/8063467/versions/0",
+        "accountId": "2154833823",
+        "containerId": "8063467",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/2154833823/containers/8063467",
+            "accountId": "2154833823",
+            "containerId": "8063467",
+            "name": "www.taxihub.com.ng",
+            "publicId": "GTM-WZGCJRT",
+            "usageContext": [
+                "ANDROID_SDK_5"
+            ],
+            "fingerprint": "1512813071341",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/2154833823/containers/8063467/workspaces?apiLink=container"
+        },
+        "tag": [
+            {
+                "accountId": "2154833823",
+                "containerId": "8063467",
+                "tagId": "1",
+                "name": "mytag",
+                "type": "fm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "action",
+                        "value": "filter"
+                    }
+                ],
+                "fingerprint": "1512813071342",
+                "firingTriggerId": [
+                    "2147479556"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "2154833823",
+                "containerId": "8063467",
+                "type": "EVENT_NAME",
+                "name": "Event Name"
+            },
+            {
+                "accountId": "2154833823",
+                "containerId": "8063467",
+                "type": "APP_ID",
+                "name": "App ID"
+            },
+            {
+                "accountId": "2154833823",
+                "containerId": "8063467",
+                "type": "APP_NAME",
+                "name": "App Name"
+            },
+            {
+                "accountId": "2154833823",
+                "containerId": "8063467",
+                "type": "APP_VERSION_CODE",
+                "name": "App Version Code"
+            }
+        ],
+        "fingerprint": "0",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/2154833823/containers/8063467/versions/0?apiLink=version"
+    }
+}

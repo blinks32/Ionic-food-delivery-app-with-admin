@@ -1,0 +1,516 @@
+@import '~@angular/material/theming';
+
+@include mat-core();
+
+//===================================================================
+//  SETTINGS
+//===================================================================
+
+$primary-color: linear-gradient(to right, rgba(0, 178, 223, 0.856), rgba(4, 88, 185, 0.363));
+$primary2-color: rgba(45, 167, 7, 0.26);
+$secondary-color: rgba(201, 201, 201, 0.986) !default;
+$font-color: #FFFFFF !default;
+$border-radius: 6px;
+$light-color: #2b4b5e;
+$hover-color: #61532c;
+$deep-color: #5c5232;
+$danger: rgb(248, 14, 14);
+$myGrey-color:rgb(243, 243, 243);
+$cloth-color:rgb(94, 73, 14);
+$shadow-value: 0px 0px 0px #8b8b8b;
+$mini-color: rgb(160, 160, 160);
+$toper:    rgba(253, 253, 253, 0.205);
+$doper:    rgba(43, 137, 199, 0.507);
+$lighters: rgba(16, 94, 197, 0.452);
+
+
+@keyframes fadeAnim {
+    from {
+      opacity: 0;
+      // margin-top: 3%;
+    }
+    
+    to {
+      opacity: 1;
+      // margin-top: 0%;
+    }
+  }
+
+
+ mat-sidenav-container.m2app-dark {
+   
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(78, 78, 78);
+    h2{
+      color: white;
+    }
+  }
+
+  mat-sidenav-container{
+    background: rgb(224, 224, 224);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    h2{
+      color: rgba(43, 43, 43, 0.932);
+    }
+  }
+
+
+  mat-form-field{
+   // background: rgb(224, 224, 224);
+    width: 70%;
+    margin-left: 10%;
+  }
+
+  .app-content {
+  padding: 20px;
+  background: rgb(78, 78, 78);
+   margin: 0px;
+   height: 100% !important;
+   padding-bottom: 60% !important;
+   
+  }
+  
+  .app-content mat-card {
+    margin: 1px;
+  }
+  
+  .app-sidenav {
+    padding: 0px;
+    min-width: 100px;
+    position: fixed;
+    z-index: 100 !important;
+    background:  $primary2-color;
+    height: 100% !important;
+    color: white;
+    transition: $shadow-value;
+    box-shadow: $shadow-value;
+  
+  }
+  
+  mat-list{
+    background:  $primary2-color;
+  }
+  
+  
+
+  .app-toolbar {
+    position: fixed;
+    background:  $primary-color;
+    z-index: 100 !important;
+    color: white;
+    transition: $shadow-value;
+    box-shadow: $shadow-value;
+ }
+  
+  .app-toolbar-filler {
+    flex: 0.8 1;
+  }
+  
+  .app-toolbar-menu {
+    padding: 0 12px 0 7px;
+    color: white;
+  
+  }
+
+  .sidemenu_buttons{
+    padding: 0;
+    margin: 0;
+  }
+
+  .sidemenu_buttons :hover{
+     color:yellow
+  }
+  
+  .app-icon-button {
+    box-shadow: none;
+    user-select: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    filter: none;
+    font-weight: normal;
+    height: auto;
+    line-height: inherit;
+    margin: 0;
+    min-width: 0;
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+  }
+
+  h2,h3{
+    text-align: center;
+    font-weight: 500;
+  
+    font-style: bold;
+   // color: white;
+    
+  }
+  
+  .app-action {
+    display: inline-block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  #app-spinner {
+    height: 3px !important;
+    width: 3px !important;
+  }
+  
+  .app-input-icon {
+    font-size: 16px;
+  }
+  
+  .app-list {
+    border: 1px solid rgba(0,0,0,0.12);
+    width: 350px;
+    margin: 20px;
+  }
+
+  
+  
+  .app-progress {
+    //margin: 0%;
+     z-index: 100 !important;
+     width: 100%;
+     top: 0%;
+     position: absolute
+  }
+
+  
+ mat-card {
+  margin: 6px;
+  width: auto;
+  //display: inline-block;
+  transition: $shadow-value;
+  //box-shadow: $shadow-value; 
+  text-align: center;
+  border-radius: $border-radius; 
+  animation-name: fadeAnim;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+}
+
+
+
+img{
+  width: 20px;
+}
+
+// .tablehead{
+//   background: gray;
+// }
+
+.example-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  margin: 4%;
+  background:  $primary-color;
+  //border-radius: $border-radius;
+  transition: $shadow-value;
+  box-shadow: $shadow-value;
+}
+
+.mat-table {
+  overflow: auto;
+  max-height: 500px;
+    //background: gray;
+   // border-radius: $border-radius;
+}
+
+
+
+.center{
+  text-align: center;
+  animation-name: fadeAnim;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+
+    width: 90% !important;
+    height: 30%;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: $border-radius;
+    background: $primary-color;
+   
+    margin-top: 2%;
+    margin-bottom: 2%;
+    box-shadow: $shadow-value;
+      
+      p{
+      text-align: center;
+      font-size: 1.2em;
+      background: $mini-color;
+      overflow: hidden;
+      border-radius: $border-radius;
+      border: 1px solid $light-color;
+      width: 80%;
+      margin-top: 20px;
+      margin-left: 10%;
+      padding: 6px;
+      
+      }
+
+      img{
+          width: 20% !important;
+          height: 20% !important;
+          cursor: pointer;
+          border-radius: $border-radius;
+          border: 1px solid $light-color;
+          padding: 10px;
+          margin-top: 4%;
+      }
+
+    
+
+         .material-icons{
+          width: 30%;
+          height: auto;
+          cursor: pointer;
+          margin: 3%;
+          border-radius: $border-radius;
+          border: 1px solid $light-color;
+          background: #ffffff
+      }
+
+      .material-icons:hover{
+          width: 30%;
+          height: auto;
+          background: $secondary-color;
+          cursor: pointer;
+          border-radius: $border-radius;
+          border: 1px solid $light-color;
+          
+      }
+      
+
+      .h{
+          text-align: center;
+          font-size: 1.1em;
+          margin-top: 70px;
+          overflow: hidden;
+          }
+  }
+
+
+
+  h1{
+      text-align: center;  
+      color: rgb(255, 255, 255);
+      font-size: 1.1em;
+      padding: 5px;
+  }
+  
+
+
+  .seperator{
+      text-align: center;
+    //  font-size: 1em;
+      background: $primary-color;
+      border-radius: $border-radius;
+    //  border: 1px solid $light-color;
+      color: rgb(247, 247, 247);
+     width: auto;
+  }
+  
+  
+  
+.menu_items {
+position: fixed;
+padding: 0px 0;
+height: auto;
+overflow: hidden;
+background: $primary-color;
+color: #ffffff;
+// line-height: 500px;
+width: 100%;
+z-index: 4;
+border: 1px solid rgb(181, 219, 255);
+box-shadow: $shadow-value $secondary-color;
+}
+
+.items{
+  text-align: center;
+ 
+li {
+  text-align: center;
+  list-style: none;
+  display:inline-block;
+  vertical-align:middle;
+  margin: 1%;
+  background: $mini-color;
+  border-radius: $border-radius;
+  padding: 1%;
+  height: 50%;
+  cursor: pointer;
+  box-shadow: $shadow-value;
+  img{
+    margin: 3px;
+    padding: 2%;
+    border-radius: $border-radius;
+    width: auto;
+    border-bottom: 1px solid white;
+    z-index: 0;
+  }
+
+}
+
+  p{
+      text-align: center;
+      font-size: 1.5em;
+      //background: $mini-color;
+      overflow: hidden;
+      border-radius: $border-radius;
+      border: 1px solid $light-color;
+      width: 80%;
+      margin-top: 20px;
+      margin-left: 10%;
+      padding: 2px;
+      
+      }
+
+
+}
+
+
+.m2app-dark {
+
+.form-style-8{
+  font-family: 'Open Sans Condensed', arial, sans;
+  width: 70%;
+  padding: 30px;
+  background: rgb(78, 78, 78);
+  margin: 90px auto;
+  box-shadow: $shadow-value ;
+  -moz-box-shadow: $shadow-value ;
+  -webkit-box-shadow:  $shadow-value ;
+  border-radius: $border-radius;
+  animation-name: fadeAnim;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+}
+}
+
+
+.form-style-8{
+  font-family: 'Open Sans Condensed', arial, sans;
+  width: 70%;
+  padding: 30px;
+  background: $myGrey-color;
+  margin: 90px auto;
+  box-shadow: $shadow-value + 5px;
+  -moz-box-shadow: $shadow-value ;
+  -webkit-box-shadow:  $shadow-value ;
+  border-radius: $border-radius;
+  animation-name: fadeAnim;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+}
+
+.form-style-8 label{
+  color: $deep-color;
+}
+.form-style-8 h2{
+  background: $primary-color;
+  text-transform: uppercase;
+  border-top-left-radius: $border-radius;
+  border-top-right-radius: $border-radius;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #f7f7f7;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 20px;
+  margin: -30px -30px 30px -30px;
+}
+
+.form-style-8 p{
+  background: $primary-color;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #f0f0f0;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 20px;
+  margin: -30px -30px 30px -30px;
+}
+
+
+.form-style-8 button{
+  background: $primary-color;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #f7f7f7;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 20px;
+  border-radius: $border-radius;
+  border: none;
+  width: auto;
+  //cursor: pointer;
+  
+}
+
+.form-style-8 button:hover{
+  background: $secondary-color;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #f7f7f7;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 20px;
+  border-radius: $border-radius;
+  border: none;
+  width: auto;
+  cursor: pointer;
+  
+}
+
+.material-icons:hover {
+  cursor: pointer;
+}
+
+.form-style-8 input[type="text"],
+.form-style-8 input[type="date"],
+.form-style-8 input[type="datetime"],
+.form-style-8 input[type="email"],
+.form-style-8 input[type="number"],
+.form-style-8 input[type="search"],
+.form-style-8 input[type="time"],
+.form-style-8 input[type="url"],
+.form-style-8 input[type="password"],
+.form-style-8 input[type="file"],
+.form-style-8 textarea,
+.form-style-8 select 
+{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  display: block;
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-bottom: 1px solid $secondary-color;
+  background: transparent;
+  margin-bottom: 10px;
+  font: 16px Arial, Helvetica, sans-serif;
+  height: 45px;
+}
+.form-style-8 textarea{
+  resize:none;
+  overflow: hidden;
+}

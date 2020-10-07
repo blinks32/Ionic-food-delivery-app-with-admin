@@ -1,0 +1,29 @@
+
+
+
+
+        <!-- Login To App Section Can Be Found Below -->
+
+        <div class='o_section'>
+
+            <ion-grid>
+              <ion-row>
+                <ion-col>
+                    <button *ngIf="!initState" color='primary'ion-button block (click)="goToLogin()">
+                        {{lp.translate()[0].g2}}
+                      </button>
+                </ion-col>
+                <ion-col>
+                    <button *ngIf="!initState" color='primary'ion-button block (click)="goToSignup()">
+                        {{lp.translate()[0].g5}}
+                      </button>
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+        
+        
+            <!-- <button *ngIf="!initState" color='primary' ion-button block  (click)="loginViaFacebook()">
+                {{lp.translate()[0].facebook}}
+            </button> -->
+        
+           </div>

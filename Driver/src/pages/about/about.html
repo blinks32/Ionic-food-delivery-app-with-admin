@@ -1,0 +1,48 @@
+<!--
+  Generated template for the AboutPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header no-border>
+
+  <ion-navbar color="nav-color">
+    <ion-title>About</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<!-- -->
+
+<ion-content class="no-scroll" padding>
+   
+  <button padding color="primary" ion-button block (click)="gotoSite()">
+      {{settings.appName}} {{Lang[0].website}}
+    </button>
+    <button padding color="primary" ion-button block (click)="gotoSite2()">
+        {{settings.appName}} {{Lang[0].a1}}
+      </button>
+      <button padding  color="primary" ion-button block (click)="gotoSite3()">
+         FAQ
+    </button>
+
+    <ion-label></ion-label>
+      <button padding  color="newColor" ion-button block (click)="gotoSite9()">
+        Facebook
+  </button>
+
+  <button padding  color="danger" ion-button block (click)="gotoSite10()" >
+    Instagram <strong>@{{settings.appName}}</strong>
+</button>
+<ion-label></ion-label>
+<ion-label></ion-label>
+      <button padding text-center color="primary" ion-button clear block (click)="gotoSite4()">
+        Terms and Conditions
+  </button>
+    
+    <ion-label padding text-center>
+    
+      <!-- Made with &hearts; by PlayStudio. -->
+  </ion-label>
+</ion-content>

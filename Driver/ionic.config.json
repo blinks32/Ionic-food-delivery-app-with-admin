@@ -1,0 +1,10 @@
+{
+  "name": "myTaxiDriver",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "pro_id": "6204879d",
+  "id": "6204879d",
+  "app_id": ""
+}

@@ -1,0 +1,150 @@
+page-register {
+    background-image: url($my) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+   // background-position-y: -100px;
+  @keyframes wiki {
+    from {
+      opacity: 0;
+    }
+    
+    to {
+      opacity: 1;
+    }
+}
+  
+  form {
+    margin-bottom: 16px;
+    height: 200px auto;
+    //background: white;
+    padding: 10px;
+    //border-radius: $borderRadius;
+    margin-top: 20px;
+    animation-direction: alternate;
+    animation-name: wiki;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+  //  border: 1px solid color($colors, nav-border-bottom, base);
+    button {
+      margin-top: 20px !important;
+      border-radius: $borderRadius;
+    }
+    .button{
+      border: 1px solid color($colors, primary, base);
+      padding: 10px;
+      background: color($colors, primary, base);
+      color: color($colors, light, base);
+    }
+  }
+
+  p {
+    font-size: 0.8em;
+    color: #272727;
+  }
+
+  ion-label{
+    text-align: center;
+  }
+
+  ion-input {
+    padding: 5px;
+    background: grey;
+    border: 1px solid color($colors, primary, base);
+    color: white;
+  }
+
+  .invalid {
+    border: 1px solid #FF6153;
+  }
+
+  .error-message .item-inner {
+    border-bottom: 0 !important;
+  }
+
+  ion-item{
+    border-radius: $borderRadius;
+  }
+
+  .button{
+    border-radius: $borderRadius;
+    background: white;
+    height: 50px ;
+    color: color($colors, primary, base);
+    animation-direction: alternate;
+    animation-name: wiki;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+  }
+
+  .terms{
+    margin-top: 40px;
+    color: color($colors, primary, base);
+    text-align: center;
+  }
+
+  .cont{
+    background: white;
+  //  height: 120px;
+   // width: 100% !important;
+  }
+
+  $bg-filter: rgba(2, 122, 56, 0.67);
+  $item: rgba(251, 253, 251, 0.67);
+  .content {
+     background-image: url('../../assets/bgauth.png');
+    background-size: cover;
+  }
+
+  .center_text{
+    margin-top: 10%;
+    
+    .logo-text{
+      color: color($colors, primary, base);
+      text-align: center;
+      font-size: 1.4em;
+      font-weight: 200;
+    }
+
+    .logo-text1{
+      text-transform: uppercase;
+      color: color($colors, primary, base);
+      text-align: center;
+      font-size: 1.4em;
+    }
+  
+  }
+
+  #centerimg{
+    height: auto;
+    width: 13em;
+}
+
+  
+  .o_section{
+    margin-top: 100%;
+    animation-direction: alternate;
+    animation-name: wiki;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+    padding: 0px;
+    button{
+      margin-top: 100%;
+      // border: 1px solid color($colors, primary, base);
+      background: color($colors, primary, base);
+      height: 50px ;
+      color: color($colors, light, base);
+      animation-direction: alternate;
+      animation-name: wiki;
+      animation-duration: 0.3s;
+      animation-iteration-count: 1;
+    }
+  
+  }
+
+
+
+  
+
+
+}

@@ -1,0 +1,123 @@
+page-chat {
+
+     ion-content{
+       
+    
+      
+      
+    
+      h1{
+        background: color($colors, gery, base);
+        font-size: 1.67em;
+        padding-top: 7px;
+        width: auto;
+        padding-bottom: 7px;
+        //border: 1px solid color($colors, light, base);
+      
+        //color: color($colors, deep, base);
+      }
+    
+    
+      .followed-items{
+        .driver{
+          margin-top: 5px;
+          margin-bottom: 5px;
+          border-radius: 30px;
+          border: 1px solid color($colors, nav-border-bottom, base);
+          background-color: color($colors, gery, base);
+          padding: 10px;
+          float: right;
+          width: 80%;
+       
+         p {
+    font-size: 16px; 
+    font-size: 4vw;
+    color: white;
+}
+      }
+
+
+      .user{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-radius: 30px;
+        border: 1px solid color($colors, nav-border-bottom, base);
+        background-color: color($colors, green, base);
+        padding: 10px;
+        float: left;
+        width: 80%;
+     
+       p {
+    font-size: 16px; 
+    font-size: 4vw;
+    color: white;
+}
+    }
+    
+    
+       }
+    
+     
+       .topped-items{
+       // background: linear-gradient(to left, #0084ff 50%, orange 30%,orange 30%); /* W3C */
+        ion-item{
+          margin-top: 0px;
+          margin-bottom:6px;
+         
+          
+      }
+      h2{
+        color: orange;
+        font-size: 1.27em;
+        padding: 2px;
+       // border-bottom: 1px solid color($colors, nav-border-bottom, base);
+      }
+    
+      ion-label{
+        color: rgb(0, 153, 255) !important;
+        font-size: 1em;
+        padding: 2px;
+       
+      }
+       
+    }
+     
+     }
+
+
+
+
+  ion-footer{
+    #container_1{
+        margin-top: 2%;
+          height: auto;
+          width: 100%;
+           padding: 25px;
+           border-radius: $border;
+          color: white;
+          text-align: center;
+          background: color($colors, primary, base);
+          //border: 1px solid color($colors, primary, base);
+         background-position: left;
+          box-shadow: 0px 0px 7px 0px  color($colors, nav-shadow, base);
+         overflow: hidden;
+         ion-icon{
+          color: color($colors, nav-color, base); 
+        }
+          h2{
+            font-size: 1.0em;
+            height: auto;
+          }
+        
+          ion-icon{
+            margin: 5px;
+          }
+        
+          .profile-pic{
+            width: 15%;
+            height: 18%;
+          }
+        }
+        
+  }
+}

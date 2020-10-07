@@ -1,0 +1,83 @@
+page-login {
+   
+  $bg-filter: rgba(2, 78, 122, 0.67);
+  $item: rgba(251, 253, 251, 0.67);
+  ion-content {
+    background-image:linear-gradient(#034b75,rgba(0,0,0,0.5)), url($my);
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     background-size: cover;
+      }
+
+
+  .bar-buttons,
+  .toolbar-title {
+ color: #fff;
+}
+  .grid-center {
+    margin-top: -10px;
+    justify-content: center;
+    width: 70vw;
+    min-width: 330px;
+    height: 100vh;
+  }
+  .login-logo {
+    max-width: 200px;
+  }
+  ion-list {
+    .item {
+      background-color: transparent;
+      padding: 0px;
+    }
+    .label[floating] {
+      color: $item !important;
+    }
+    .item-input.input-has-focus .item-inner {
+      border-bottom-color: $item !important;
+      box-shadow: inset 0 -1px 0 0 $item !important;
+    }
+    .item-input.input-has-focus:last-child {
+      border-bottom-color: $item !important;
+      box-shadow: inset 0 -1px 0 0 $item !important;
+    }
+    .item-block .item-inner {
+      border-bottom: 1px solid $item !important;
+    }
+    .item-block:first-child {
+      border-top: none !important;
+    }
+    .item-input:last-child {
+      border-bottom: none !important;
+    }
+    .item-input.ng-valid.item-input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner,
+    .item-input.ng-valid.input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner {
+      border-bottom-color: $item !important;
+      -webkit-box-shadow: inset 0 -1px 0 0 $item !important;
+      box-shadow: inset 0 -1px 0 0 $item !important;
+    }
+    .text-input {
+      color: #fff !important;
+    }
+  }
+  .login {
+    background-color: $item !important;
+  }
+  .facebook {
+    background-color: #3b5999 !important;
+    p {
+      margin-top: 15px;
+    }
+  }
+  .google {
+    background-color: #ec4f1e !important;
+    p {
+      margin-top: 15px;
+    }
+  }
+  p.text {
+    text-align: center;
+    color: #ffffff !important;
+    font-size: 1rem;
+    margin: 4px;
+  }
+}

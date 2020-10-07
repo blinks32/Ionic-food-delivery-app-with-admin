@@ -1,0 +1,99 @@
+page-promo {
+    form {
+      margin-bottom: 26px;
+      height: 200px auto;
+      background: white;
+      padding: 15px;
+      border-radius: $border;
+      margin-top: 20px;
+      animation-direction: alternate;
+      animation-name: wiki;
+      animation-duration: 0.3s;
+      animation-iteration-count: 1;
+      border: 1px solid color($colors, nav-border-bottom, base);
+      button {
+        margin-top: 20px !important;
+      }
+      .button{
+        border: 1px solid color($colors, primary, base);
+        padding: 10px;
+        background: color($colors, primary, base);
+        color: color($colors, light, base);
+      }
+    }
+  
+      
+      
+      
+        ion-label{
+          text-align: center;
+        }
+      
+        ion-input {
+          padding: 6px;
+          font-size: 1.3em;
+        }
+      
+        .invalid {
+          border: 1px solid #FF6153;
+        }
+      
+        .error-message .item-inner {
+          border-bottom: 0 !important;
+        }
+
+        .button{
+          border-radius: $border;
+          height: 50px;
+      }
+      .butt{
+       
+          display: inline-table;
+          height: 50px;
+          width: 90%;
+        
+         
+      }
+   
+      #envelope{
+       height: auto;
+       width: 6em;
+   }
+   
+   
+   .bars{
+       margin-top: 0%;
+       padding: 12px;
+       
+       .bars-price {
+           height: 50px;
+           width: 100%;
+           background: color($colors,bar-color, base);
+           border-left: 1.1px solid color($colors, nav-border-bottom, base);
+           border-right: 1.1px solid color($colors, nav-border-bottom, base);
+           border-top: 1px solid color($colors, nav-border-bottom, base);
+           border-bottom: 1px solid color($colors, nav-border-bottom, base);
+         //  margin: -12% 0 0 -50px;
+          // margin-left: 22% auto;
+       
+           z-index: 3;
+           // border: 1px solid color($colors, nav-border-bottom, base);
+           border-radius: $border;
+           overflow:hidden;
+           line-height:20px;
+           font-size: 1.2em;
+           text-align: center;
+     
+            ion-icon{
+              position: absolute;
+             font-size: 1em;
+             left: 2%;
+             color: color($colors, primary, base);
+             padding: 5px;
+            }
+     
+       }
+   
+   }
+  }
+  

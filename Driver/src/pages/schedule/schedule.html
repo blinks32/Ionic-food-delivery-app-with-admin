@@ -1,0 +1,60 @@
+<ion-header  no-border>
+  <ion-navbar color="nav-color">
+    <ion-title>{{lp.translate()[0].k1}}</ion-title>
+  </ion-navbar>
+   
+  <!-- <div text-center id='topcontent' detail-none color="light" no-lines text-center icon-start>
+<h1>{{settings.appcurrency}} {{profile.earnings}} outstanding</h1>
+
+  </div> -->
+</ion-header>
+
+
+<ion-content padding text-center class='yes-scroll'>
+    <div class='followed-items'>
+          <ion-list *ngFor="let event of scheduleList" text-center>
+              <h2 text-center *ngIf='!event.duedate >= -1 && !bookable'>
+                No Rides Around You Or Are Due For Starting.
+              </h2>
+              <ion-item *ngIf='event.duedate >= -1 && bookable'>
+                  <!-- <div *ngIf='event.duedate < -1 || event.canBook == false' >
+                      <h2 class='date'><strong><ion-icon name="trash"></ion-icon>No Scheduled Rides</strong></h2>
+                  </div>
+                  <div > -->
+                     
+                <h2 *ngIf='event.duedate == -1' class='date'><strong><ion-icon name="calendar"></ion-icon>{{lp.translate()[0].k2}}</strong></h2>
+                <h2 *ngIf='event.duedate >= 0' class='date'><strong><ion-icon name="calendar"></ion-icon>{{event?.date}}</strong></h2>
+                <h2 *ngIf='event.duedate >= 0 && event.time != null' class='time'><strong><ion-icon name="clock"></ion-icon>{{event?.time}}</strong></h2>
+                <h2 class='drive'><strong><ion-icon name="contact"></ion-icon>{{event?.name}}</strong></h2>
+                <!-- <h2 class='drive'><strong><ion-icon name="contact"></ion-icon>{{event?.canBook}}</strong></h2> -->
+                <h2 *ngIf='event.price != 0' class='price'><strong><ion-icon name="ios-cash"></ion-icon>{{settings.appcurrency}}{{event?.price}}</strong></h2>
+                <p class=''><ion-icon name="locate"></ion-icon>{{event?.location}}</p>
+                <p class='destination'><ion-icon name="flag"></ion-icon>{{event?.destination}}</p>
+                <!-- <h2 *ngIf='event.duedate >= 0' class='duedate' ><strong>visible in {{event?.duedate}} day(s)</strong></h2>
+                <h2 *ngIf='event.duedate <= 0' class='onduedate'><strong>Ride Has Expired</strong></h2>
+             -->
+             
+                        <button *ngIf='event.duedate > 0' detail-none color="gery" no-lines text-center icon-start ion-item (click)="Warn(event.duedate)" >
+                          <ion-icon name="ios-car"></ion-icon>
+                          {{lp.translate()[0].k3}} {{event?.duedate}} {{lp.translate()[0].k4}}
+                        </button>
+
+                        <button *ngIf='event.duedate == 0' detail-none color="gery" no-lines text-center icon-start ion-item (click)="Warn(event.duedate)" >
+                          <ion-icon name="ios-car"></ion-icon>
+                          {{lp.translate()[0].k5}}
+                        </button>
+
+                        <button *ngIf='event.duedate == -1' detail-none color="gery" no-lines text-center icon-start ion-item (click)="Start(event)" >
+                          <ion-icon name="ios-car"></ion-icon>
+                          {{lp.translate()[0].k6}}
+                        </button>
+            
+                  <!-- </div> -->
+              </ion-item>
+            </ion-list>
+
+          
+            
+    </div>
+ 
+</ion-content>

@@ -1,0 +1,1135 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/.bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'mx.ferreyra.callnumber@0.0.2',
+1 verbose cli   '--production',
+1 verbose cli   '--no-save' ]
+2 info using npm@2.15.12
+3 info using node@v8.11.2
+4 verbose install initial load of /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/package.json
+5 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/abbrev/package.json
+6 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/abstract-leveldown/package.json
+7 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/accepts/package.json
+8 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/acorn/package.json
+9 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/acorn-dynamic-import/package.json
+10 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/after/package.json
+11 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/ajv/package.json
+12 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/ajv-keywords/package.json
+13 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/align-text/package.json
+14 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/amdefine/package.json
+15 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/angular/package.json
+16 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/angularfire2/package.json
+17 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/ansi-escapes/package.json
+18 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/ansi-regex/package.json
+19 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/ansi-styles/package.json
+20 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/anymatch/package.json
+21 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/aproba/package.json
+22 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/archiver/package.json
+23 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/archiver-utils/package.json
+24 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/are-we-there-yet/package.json
+25 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/argparse/package.json
+26 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/arr-diff/package.json
+27 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/arr-flatten/package.json
+28 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/arr-union/package.json
+29 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/array-find-index/package.json
+30 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/array-flatten/package.json
+31 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/array-unique/package.json
+32 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/arraybuffer.slice/package.json
+33 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/asn1/package.json
+34 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/asn1.js/package.json
+35 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/assert/package.json
+36 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/assert-plus/package.json
+37 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/assign-symbols/package.json
+38 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/ast-types/package.json
+39 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/async/package.json
+40 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/async-each/package.json
+41 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/async-each-series/package.json
+42 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/async-foreach/package.json
+43 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/async-limiter/package.json
+44 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/asynckit/package.json
+45 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/atob/package.json
+46 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/autoprefixer/package.json
+47 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/aws-sign2/package.json
+48 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/aws4/package.json
+49 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/axios/package.json
+50 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-cli/package.json
+51 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-code-frame/package.json
+52 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-core/package.json
+53 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-generator/package.json
+54 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-helper-evaluate-path/package.json
+55 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-helper-flip-expressions/package.json
+56 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-helper-is-nodes-equiv/package.json
+57 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-helper-is-void-0/package.json
+58 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-helper-mark-eval-scopes/package.json
+59 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-helper-remove-or-void/package.json
+60 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-helper-to-multiple-sequence-expressions/package.json
+61 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-helpers/package.json
+62 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-messages/package.json
+63 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-plugin-minify-builtins/package.json
+64 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-plugin-minify-constant-folding/package.json
+65 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-plugin-minify-dead-code-elimination/package.json
+66 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-plugin-minify-flip-comparisons/package.json
+67 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-plugin-minify-guarded-expressions/package.json
+68 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-plugin-minify-infinity/package.json
+69 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-plugin-minify-mangle-names/package.json
+70 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-plugin-minify-numeric-literals/package.json
+71 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-plugin-minify-replace/package.json
+72 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-plugin-minify-simplify/package.json
+73 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-plugin-minify-type-constructors/package.json
+74 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-plugin-transform-inline-consecutive-adds/package.json
+75 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-plugin-transform-member-expression-literals/package.json
+76 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-plugin-transform-merge-sibling-variables/package.json
+77 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-plugin-transform-minify-booleans/package.json
+78 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-plugin-transform-property-literals/package.json
+79 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-plugin-transform-regexp-constructors/package.json
+80 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-plugin-transform-remove-console/package.json
+81 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-plugin-transform-remove-debugger/package.json
+82 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-plugin-transform-remove-undefined/package.json
+83 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-plugin-transform-simplify-comparison-operators/package.json
+84 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-plugin-transform-undefined-to-void/package.json
+85 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-polyfill/package.json
+86 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-preset-babili/package.json
+87 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-register/package.json
+88 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-runtime/package.json
+89 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-template/package.json
+90 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-traverse/package.json
+91 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babel-types/package.json
+92 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babili/package.json
+93 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/babylon/package.json
+94 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/backo2/package.json
+95 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/balanced-match/package.json
+96 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/base/package.json
+97 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/base62/package.json
+98 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/base64-arraybuffer/package.json
+99 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/base64-js/package.json
+100 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/base64id/package.json
+101 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/basic-auth/package.json
+102 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/batch/package.json
+103 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/bcrypt-pbkdf/package.json
+104 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/better-assert/package.json
+105 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/big-integer/package.json
+106 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/big.js/package.json
+107 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/binary-extensions/package.json
+108 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/bl/package.json
+109 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/blob/package.json
+110 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/block-stream/package.json
+111 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/bn.js/package.json
+112 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/body/package.json
+113 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/body-parser/package.json
+114 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/boolbase/package.json
+115 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/boom/package.json
+116 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/bplist-creator/package.json
+117 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/bplist-parser/package.json
+118 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/brace-expansion/package.json
+119 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/braces/package.json
+120 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/brorand/package.json
+121 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/browser-resolve/package.json
+122 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/browser-sync/package.json
+123 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/browser-sync-ui/package.json
+124 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/browserify-aes/package.json
+125 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/browserify-cipher/package.json
+126 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/browserify-des/package.json
+127 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/browserify-fs/package.json
+128 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/browserify-rsa/package.json
+129 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/browserify-sign/package.json
+130 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/browserify-zlib/package.json
+131 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/browserslist/package.json
+132 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/bs-recipes/package.json
+133 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/buffer/package.json
+134 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/buffer-alloc/package.json
+135 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/buffer-alloc-unsafe/package.json
+136 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/buffer-crc32/package.json
+137 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/buffer-es6/package.json
+138 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/buffer-fill/package.json
+139 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/buffer-from/package.json
+140 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/buffer-xor/package.json
+141 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/builtin-modules/package.json
+142 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/builtin-status-codes/package.json
+143 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/bytes/package.json
+144 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cache-base/package.json
+145 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/call-number/package.json
+146 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/callsite/package.json
+147 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/camelcase/package.json
+148 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/camelcase-keys/package.json
+149 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/caniuse-lite/package.json
+150 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/caseless/package.json
+151 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/center-align/package.json
+152 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/chalk/package.json
+153 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/chardet/package.json
+154 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cheerio/package.json
+155 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/chokidar/package.json
+156 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/chownr/package.json
+157 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/ci-info/package.json
+158 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cipher-base/package.json
+159 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/class-utils/package.json
+160 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/clean-css/package.json
+161 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cli-cursor/package.json
+162 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cli-width/package.json
+163 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cliui/package.json
+164 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/clone/package.json
+165 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/co/package.json
+166 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/code-point-at/package.json
+167 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/collection-visit/package.json
+168 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/color-convert/package.json
+169 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/color-name/package.json
+170 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/colors/package.json
+171 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/combined-stream/package.json
+172 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/commander/package.json
+173 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/component-bind/package.json
+174 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/component-emitter/package.json
+175 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/component-inherit/package.json
+176 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/compress-commons/package.json
+177 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/concat-map/package.json
+178 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/concat-stream/package.json
+179 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/connect/package.json
+180 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/connect-history-api-fallback/package.json
+181 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/console-browserify/package.json
+182 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/console-control-strings/package.json
+183 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/constants-browserify/package.json
+184 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/content-disposition/package.json
+185 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/content-type/package.json
+186 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/continuable-cache/package.json
+187 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/convert-source-map/package.json
+188 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cookie/package.json
+189 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cookie-signature/package.json
+190 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cookiejar/package.json
+191 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/copy-descriptor/package.json
+192 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cordova-android/package.json
+193 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cordova-browser/package.json
+194 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cordova-custom-config/package.json
+195 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cordova-ios/package.json
+196 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cordova-plugin-accountkit/package.json
+197 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cordova-plugin-advanced-http/package.json
+198 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cordova-plugin-background-mode/package.json
+199 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cordova-plugin-browsertab/package.json
+200 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cordova-plugin-buildinfo/package.json
+201 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cordova-plugin-camera/package.json
+202 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cordova-plugin-compat/package.json
+203 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cordova-plugin-device/package.json
+204 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cordova-plugin-file/package.json
+205 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cordova-plugin-googlemaps/package.json
+206 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cordova-plugin-inappbrowser/package.json
+207 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cordova-plugin-ionic-webview/package.json
+208 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cordova-plugin-ionic-wkkeyboard/package.json
+209 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cordova-plugin-paystack/package.json
+210 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cordova-plugin-request-location-accuracy/package.json
+211 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cordova-plugin-splashscreen/package.json
+212 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cordova-plugin-statusbar/package.json
+213 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cordova-plugin-vibration/package.json
+214 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cordova-plugin-whitelist/package.json
+215 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cordova-plugin-x-socialsharing/package.json
+216 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cordova.plugins.diagnostic/package.json
+217 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/core-js/package.json
+218 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/core-util-is/package.json
+219 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cors/package.json
+220 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/crc/package.json
+221 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/crc32-stream/package.json
+222 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/create-ecdh/package.json
+223 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/create-hash/package.json
+224 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/create-hmac/package.json
+225 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cross-spawn/package.json
+226 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/cryptiles/package.json
+227 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/crypto-browserify/package.json
+228 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/csp-parse/package.json
+229 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/css-select/package.json
+230 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/css-what/package.json
+231 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/currently-unhandled/package.json
+232 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/d/package.json
+233 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/dargs/package.json
+234 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/dashdash/package.json
+235 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/date-now/package.json
+236 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/debug/package.json
+237 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/decamelize/package.json
+238 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/decode-uri-component/package.json
+239 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/deferred-leveldown/package.json
+240 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/define-property/package.json
+241 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/delayed-stream/package.json
+242 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/delegates/package.json
+243 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/depd/package.json
+244 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/des.js/package.json
+245 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/destroy/package.json
+246 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/detect-indent/package.json
+247 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/dev-ip/package.json
+248 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/diff/package.json
+249 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/diffie-hellman/package.json
+250 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/doctrine/package.json
+251 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/dom-serializer/package.json
+252 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/domain-browser/package.json
+253 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/domelementtype/package.json
+254 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/domhandler/package.json
+255 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/domutils/package.json
+256 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/easy-extender/package.json
+257 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/eazy-logger/package.json
+258 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/ecc-jsbn/package.json
+259 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/ee-first/package.json
+260 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/electron-to-chromium/package.json
+261 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/elementtree/package.json
+262 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/elliptic/package.json
+263 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/emojis-list/package.json
+264 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/encodeurl/package.json
+265 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/end-of-stream/package.json
+266 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/engine.io/package.json
+267 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/engine.io-client/package.json
+268 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/engine.io-parser/package.json
+269 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/enhanced-resolve/package.json
+270 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/entities/package.json
+271 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/errno/package.json
+272 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/error/package.json
+273 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/error-ex/package.json
+274 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/es3ify/package.json
+275 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/es5-ext/package.json
+276 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/es6-iterator/package.json
+277 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/es6-map/package.json
+278 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/es6-promise-plugin/package.json
+279 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/es6-set/package.json
+280 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/es6-symbol/package.json
+281 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/es6-weak-map/package.json
+282 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/escape-html/package.json
+283 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/escape-string-regexp/package.json
+284 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/escope/package.json
+285 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/esmangle-evaluator/package.json
+286 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/esprima-fb/package.json
+287 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/esrecurse/package.json
+288 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/estraverse/package.json
+289 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/estree-walker/package.json
+290 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/esutils/package.json
+291 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/etag/package.json
+292 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/event-emitter/package.json
+293 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/eventemitter3/package.json
+294 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/events/package.json
+295 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/evp_bytestokey/package.json
+296 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/execa/package.json
+297 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/expand-brackets/package.json
+298 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/expand-range/package.json
+299 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/express/package.json
+300 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/extend/package.json
+301 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/extend-shallow/package.json
+302 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/external-editor/package.json
+303 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/extglob/package.json
+304 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/extsprintf/package.json
+305 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/falafel/package.json
+306 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/fast-deep-equal/package.json
+307 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/fast-json-stable-stringify/package.json
+308 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/faye-websocket/package.json
+309 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/figures/package.json
+310 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/filename-regex/package.json
+311 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/fill-range/package.json
+312 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/finalhandler/package.json
+313 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/find-up/package.json
+314 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/firebase/package.json
+315 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/follow-redirects/package.json
+316 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/for-in/package.json
+317 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/for-own/package.json
+318 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/foreach/package.json
+319 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/forever-agent/package.json
+320 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/form-data/package.json
+321 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/formidable/package.json
+322 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/forwarded/package.json
+323 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/fragment-cache/package.json
+324 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/fresh/package.json
+325 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/fs/package.json
+326 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/fs-constants/package.json
+327 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/fs-extra/package.json
+328 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/fs-minipass/package.json
+329 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/fs-readdir-recursive/package.json
+330 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/fs.realpath/package.json
+331 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/fsevents/package.json
+332 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/fstream/package.json
+333 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/fwd-stream/package.json
+334 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/gauge/package.json
+335 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/gaze/package.json
+336 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/get-caller-file/package.json
+337 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/get-stdin/package.json
+338 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/get-stream/package.json
+339 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/get-value/package.json
+340 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/getpass/package.json
+341 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/glob/package.json
+342 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/glob-base/package.json
+343 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/glob-parent/package.json
+344 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/globals/package.json
+345 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/globule/package.json
+346 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/graceful-fs/package.json
+347 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/graceful-readlink/package.json
+348 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/har-schema/package.json
+349 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/har-validator/package.json
+350 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/has-ansi/package.json
+351 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/has-binary2/package.json
+352 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/has-cors/package.json
+353 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/has-flag/package.json
+354 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/has-unicode/package.json
+355 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/has-value/package.json
+356 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/has-values/package.json
+357 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/hash-base/package.json
+358 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/hash.js/package.json
+359 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/hawk/package.json
+360 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/hmac-drbg/package.json
+361 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/hoek/package.json
+362 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/home-or-tmp/package.json
+363 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/hosted-git-info/package.json
+364 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/htmlparser2/package.json
+365 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/http-errors/package.json
+366 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/http-proxy/package.json
+367 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/http-proxy-middleware/package.json
+368 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/http-signature/package.json
+369 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/https-browserify/package.json
+370 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/iconv-lite/package.json
+371 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/idb-wrapper/package.json
+372 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/ieee754/package.json
+373 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/immediate/package.json
+374 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/immutable/package.json
+375 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/in-publish/package.json
+376 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/indent-string/package.json
+377 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/indexof/package.json
+378 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/inflight/package.json
+379 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/inherits/package.json
+380 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/inline-process-browser/package.json
+381 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/inquirer/package.json
+382 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/interpret/package.json
+383 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/invariant/package.json
+384 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/invert-kv/package.json
+385 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/ionic/package.json
+386 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/ionic-angular/package.json
+387 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/ionic-plugin-keyboard/package.json
+388 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/ionic2-rating/package.json
+389 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/ionicons/package.json
+390 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/ipaddr.js/package.json
+391 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/is/package.json
+392 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/is-accessor-descriptor/package.json
+393 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/is-arrayish/package.json
+394 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/is-binary-path/package.json
+395 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/is-buffer/package.json
+396 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/is-builtin-module/package.json
+397 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/is-data-descriptor/package.json
+398 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/is-descriptor/package.json
+399 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/is-dotfile/package.json
+400 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/is-equal-shallow/package.json
+401 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/is-extendable/package.json
+402 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/is-extglob/package.json
+403 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/is-finite/package.json
+404 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/is-fullwidth-code-point/package.json
+405 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/is-glob/package.json
+406 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/is-module/package.json
+407 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/is-number/package.json
+408 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/is-number-like/package.json
+409 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/is-object/package.json
+410 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/is-plain-object/package.json
+411 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/is-posix-bracket/package.json
+412 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/is-primitive/package.json
+413 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/is-promise/package.json
+414 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/is-stream/package.json
+415 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/is-typedarray/package.json
+416 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/is-utf8/package.json
+417 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/is-windows/package.json
+418 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/is-wsl/package.json
+419 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/isarray/package.json
+420 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/isbuffer/package.json
+421 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/isexe/package.json
+422 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/isobject/package.json
+423 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/isstream/package.json
+424 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/js-base64/package.json
+425 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/js-tokens/package.json
+426 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/js-yaml/package.json
+427 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/jsbn/package.json
+428 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/jsesc/package.json
+429 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/json-loader/package.json
+430 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/json-schema/package.json
+431 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/json-schema-traverse/package.json
+432 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/json-stable-stringify/package.json
+433 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/json-stringify-safe/package.json
+434 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/json5/package.json
+435 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/jsonfile/package.json
+436 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/jsonify/package.json
+437 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/jsprim/package.json
+438 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/jstransform/package.json
+439 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/kind-of/package.json
+440 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/lazy-cache/package.json
+441 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/lazystream/package.json
+442 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/lcid/package.json
+443 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/leek/package.json
+444 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/level-blobs/package.json
+445 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/level-filesystem/package.json
+446 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/level-fix-range/package.json
+447 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/level-hooks/package.json
+448 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/level-js/package.json
+449 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/level-peek/package.json
+450 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/level-sublevel/package.json
+451 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/levelup/package.json
+452 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/lie/package.json
+453 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/limiter/package.json
+454 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/livereload-js/package.json
+455 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/load-json-file/package.json
+456 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/loader-runner/package.json
+457 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/loader-utils/package.json
+458 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/localforage/package.json
+459 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/localforage-cordovasqlitedriver/package.json
+460 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/localtunnel/package.json
+461 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/locate-path/package.json
+462 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/lodash/package.json
+463 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/lodash._baseassign/package.json
+464 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/lodash._basecopy/package.json
+465 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/lodash._bindcallback/package.json
+466 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/lodash._createassigner/package.json
+467 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/lodash._getnative/package.json
+468 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/lodash._isiterateecall/package.json
+469 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/lodash.assign/package.json
+470 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/lodash.clonedeep/package.json
+471 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/lodash.debounce/package.json
+472 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/lodash.isarguments/package.json
+473 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/lodash.isarray/package.json
+474 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/lodash.isfinite/package.json
+475 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/lodash.isplainobject/package.json
+476 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/lodash.keys/package.json
+477 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/lodash.mergewith/package.json
+478 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/lodash.restparam/package.json
+479 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/lodash.some/package.json
+480 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/longest/package.json
+481 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/loose-envify/package.json
+482 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/loud-rejection/package.json
+483 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/lru-cache/package.json
+484 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/ltgt/package.json
+485 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/macos-release/package.json
+486 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/magic-string/package.json
+487 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/make-dir/package.json
+488 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/map-cache/package.json
+489 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/map-obj/package.json
+490 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/map-visit/package.json
+491 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/md5.js/package.json
+492 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/media-typer/package.json
+493 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/mem/package.json
+494 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/memory-fs/package.json
+495 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/meow/package.json
+496 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/merge-descriptors/package.json
+497 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/methods/package.json
+498 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/micromatch/package.json
+499 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/miller-rabin/package.json
+500 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/mime/package.json
+501 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/mime-db/package.json
+502 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/mime-types/package.json
+503 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/mimic-fn/package.json
+504 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/minimalistic-assert/package.json
+505 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/minimalistic-crypto-utils/package.json
+506 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/minimatch/package.json
+507 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/minimist/package.json
+508 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/minipass/package.json
+509 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/minizlib/package.json
+510 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/mixin-deep/package.json
+511 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/mkdirp/package.json
+512 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/ms/package.json
+513 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/mute-stream/package.json
+514 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/mx.ferreyra.callnumber/package.json
+515 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/nan/package.json
+516 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/nanomatch/package.json
+517 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/ncp/package.json
+518 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/negotiator/package.json
+519 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/neo-async/package.json
+520 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/netmask/package.json
+521 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/next-tick/package.json
+522 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/node-gyp/package.json
+523 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/node-libs-browser/package.json
+524 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/node-sass/package.json
+525 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/nomnom/package.json
+526 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/nopt/package.json
+527 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/normalize-package-data/package.json
+528 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/normalize-path/package.json
+529 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/normalize-range/package.json
+530 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/npm/package.json
+531 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/npm-run-path/package.json
+532 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/npmlog/package.json
+533 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/nth-check/package.json
+534 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/num2fraction/package.json
+535 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/number-is-nan/package.json
+536 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/oauth-sign/package.json
+537 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/object-assign/package.json
+538 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/object-component/package.json
+539 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/object-copy/package.json
+540 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/object-keys/package.json
+541 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/object-path/package.json
+542 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/object-visit/package.json
+543 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/object.omit/package.json
+544 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/object.pick/package.json
+545 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/octal/package.json
+546 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/on-finished/package.json
+547 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/once/package.json
+548 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/onesignal-cordova-plugin/package.json
+549 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/onetime/package.json
+550 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/openurl/package.json
+551 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/opn/package.json
+552 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/options/package.json
+553 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/os-browserify/package.json
+554 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/os-homedir/package.json
+555 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/os-locale/package.json
+556 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/os-name/package.json
+557 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/os-tmpdir/package.json
+558 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/osenv/package.json
+559 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/output-file-sync/package.json
+560 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/p-finally/package.json
+561 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/p-limit/package.json
+562 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/p-locate/package.json
+563 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/p-try/package.json
+564 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/pako/package.json
+565 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/parse-asn1/package.json
+566 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/parse-glob/package.json
+567 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/parse-json/package.json
+568 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/parseqs/package.json
+569 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/parseuri/package.json
+570 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/parseurl/package.json
+571 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/pascalcase/package.json
+572 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/path/package.json
+573 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/path-browserify/package.json
+574 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/path-dirname/package.json
+575 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/path-exists/package.json
+576 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/path-is-absolute/package.json
+577 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/path-key/package.json
+578 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/path-parse/package.json
+579 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/path-to-regexp/package.json
+580 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/path-type/package.json
+581 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/pbkdf2/package.json
+582 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/pegjs/package.json
+583 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/performance-now/package.json
+584 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/pify/package.json
+585 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/pinkie/package.json
+586 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/pinkie-promise/package.json
+587 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/plist/package.json
+588 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/portscanner/package.json
+589 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/posix-character-classes/package.json
+590 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/postcss/package.json
+591 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/postcss-value-parser/package.json
+592 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/preserve/package.json
+593 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/private/package.json
+594 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/process/package.json
+595 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/process-es6/package.json
+596 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/process-nextick-args/package.json
+597 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/promise-polyfill/package.json
+598 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/proxy-addr/package.json
+599 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/proxy-middleware/package.json
+600 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/prr/package.json
+601 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/pseudomap/package.json
+602 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/public-encrypt/package.json
+603 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/punycode/package.json
+604 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/q/package.json
+605 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/qs/package.json
+606 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/querystring/package.json
+607 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/querystring-es3/package.json
+608 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/randomatic/package.json
+609 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/randombytes/package.json
+610 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/randomfill/package.json
+611 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/range-parser/package.json
+612 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/raw-body/package.json
+613 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/read-pkg/package.json
+614 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/read-pkg-up/package.json
+615 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/readable-stream/package.json
+616 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/readdirp/package.json
+617 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/recast/package.json
+618 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/rechoir/package.json
+619 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/redent/package.json
+620 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/reflect-metadata/package.json
+621 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/regenerator-runtime/package.json
+622 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/regex-cache/package.json
+623 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/regex-not/package.json
+624 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/remove-trailing-separator/package.json
+625 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/repeat-element/package.json
+626 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/repeat-string/package.json
+627 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/repeating/package.json
+628 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/replace/package.json
+629 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/request/package.json
+630 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/require-directory/package.json
+631 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/require-main-filename/package.json
+632 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/requires-port/package.json
+633 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/resolve/package.json
+634 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/resolve-url/package.json
+635 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/resp-modifier/package.json
+636 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/restore-cursor/package.json
+637 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/ret/package.json
+638 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/right-align/package.json
+639 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/rimraf/package.json
+640 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/ripemd160/package.json
+641 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/rollup/package.json
+642 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/rollup-plugin-commonjs/package.json
+643 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/rollup-plugin-json/package.json
+644 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/rollup-plugin-node-builtins/package.json
+645 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/rollup-plugin-node-globals/package.json
+646 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/rollup-plugin-node-resolve/package.json
+647 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/rollup-pluginutils/package.json
+648 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/rsvp/package.json
+649 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/run-async/package.json
+650 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/rx/package.json
+651 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/rx-lite/package.json
+652 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/rx-lite-aggregates/package.json
+653 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/rxjs/package.json
+654 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/safe-buffer/package.json
+655 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/safe-json-parse/package.json
+656 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/safe-regex/package.json
+657 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/safer-buffer/package.json
+658 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/sass-graph/package.json
+659 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/sax/package.json
+660 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/scss-tokenizer/package.json
+661 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/semver/package.json
+662 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/send/package.json
+663 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/serve-index/package.json
+664 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/serve-static/package.json
+665 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/server-destroy/package.json
+666 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/serviceworker-cache-polyfill/package.json
+667 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/set-blocking/package.json
+668 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/set-immediate-shim/package.json
+669 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/set-value/package.json
+670 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/setimmediate/package.json
+671 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/setprototypeof/package.json
+672 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/sha.js/package.json
+673 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/shebang-command/package.json
+674 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/shebang-regex/package.json
+675 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/shelljs/package.json
+676 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/sigmund/package.json
+677 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/signal-exit/package.json
+678 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/simple-plist/package.json
+679 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/slash/package.json
+680 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/slice-ansi/package.json
+681 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/snapdragon/package.json
+682 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/snapdragon-node/package.json
+683 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/snapdragon-util/package.json
+684 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/sntp/package.json
+685 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/socket.io/package.json
+686 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/socket.io-adapter/package.json
+687 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/socket.io-client/package.json
+688 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/socket.io-parser/package.json
+689 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/source-list-map/package.json
+690 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/source-map/package.json
+691 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/source-map-resolve/package.json
+692 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/source-map-support/package.json
+693 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/source-map-url/package.json
+694 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/spdx-correct/package.json
+695 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/spdx-exceptions/package.json
+696 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/spdx-expression-parse/package.json
+697 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/spdx-license-ids/package.json
+698 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/split-string/package.json
+699 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/sprintf-js/package.json
+700 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/ssh-config/package.json
+701 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/sshpk/package.json
+702 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/static-extend/package.json
+703 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/statuses/package.json
+704 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/stdout-stream/package.json
+705 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/stream-browserify/package.json
+706 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/stream-buffers/package.json
+707 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/stream-http/package.json
+708 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/stream-throttle/package.json
+709 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/string-range/package.json
+710 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/string-template/package.json
+711 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/string-width/package.json
+712 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/string_decoder/package.json
+713 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/stringstream/package.json
+714 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/strip-ansi/package.json
+715 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/strip-bom/package.json
+716 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/strip-eof/package.json
+717 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/strip-indent/package.json
+718 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/stripe/package.json
+719 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/superagent/package.json
+720 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/supports-color/package.json
+721 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/sw-toolbox/package.json
+722 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/symbol-observable/package.json
+723 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/tapable/package.json
+724 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/tar/package.json
+725 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/tar-stream/package.json
+726 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/tfunk/package.json
+727 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/through/package.json
+728 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/through2/package.json
+729 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/timers-browserify/package.json
+730 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/tiny-lr/package.json
+731 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/tmp/package.json
+732 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/to-array/package.json
+733 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/to-arraybuffer/package.json
+734 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/to-buffer/package.json
+735 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/to-fast-properties/package.json
+736 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/to-object-path/package.json
+737 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/to-regex/package.json
+738 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/to-regex-range/package.json
+739 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/tostr/package.json
+740 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/tough-cookie/package.json
+741 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/trim-newlines/package.json
+742 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/trim-right/package.json
+743 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/tsickle/package.json
+744 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/tslib/package.json
+745 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/tslint/package.json
+746 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/tslint-eslint-rules/package.json
+747 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/tsutils/package.json
+748 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/tty-browserify/package.json
+749 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/tunnel-agent/package.json
+750 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/tweetnacl/package.json
+751 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/type-is/package.json
+752 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/typedarray/package.json
+753 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/typedarray-to-buffer/package.json
+754 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/typescript/package.json
+755 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/ua-parser-js/package.json
+756 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/uglify-js/package.json
+757 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/uglify-to-browserify/package.json
+758 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/uglifyjs-webpack-plugin/package.json
+759 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/ultron/package.json
+760 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/underscore/package.json
+761 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/union-value/package.json
+762 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/universalify/package.json
+763 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/unpipe/package.json
+764 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/unreachable-branch-transform/package.json
+765 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/unset-value/package.json
+766 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/untildify/package.json
+767 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/upath/package.json
+768 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/uri-js/package.json
+769 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/urix/package.json
+770 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/url/package.json
+771 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/use/package.json
+772 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/user-home/package.json
+773 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/util/package.json
+774 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/util-deprecate/package.json
+775 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/utils-merge/package.json
+776 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/uuid/package.json
+777 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/v8flags/package.json
+778 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/validate-npm-package-license/package.json
+779 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/vary/package.json
+780 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/verror/package.json
+781 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/vlq/package.json
+782 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/vm-browserify/package.json
+783 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/watchpack/package.json
+784 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/webpack/package.json
+785 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/webpack-sources/package.json
+786 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/websocket-driver/package.json
+787 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/websocket-extensions/package.json
+788 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/which/package.json
+789 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/which-module/package.json
+790 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/wide-align/package.json
+791 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/win-release/package.json
+792 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/window-size/package.json
+793 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/wordwrap/package.json
+794 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/wrap-ansi/package.json
+795 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/wrappy/package.json
+796 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/ws/package.json
+797 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/xcode/package.json
+798 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/xml2js/package.json
+799 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/xmlbuilder/package.json
+800 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/xmldom/package.json
+801 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/xmlhttprequest-ssl/package.json
+802 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/xtend/package.json
+803 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/y18n/package.json
+804 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/yallist/package.json
+805 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/yargs/package.json
+806 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/yargs-parser/package.json
+807 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/yeast/package.json
+808 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/zip-stream/package.json
+809 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/zone.js/package.json
+810 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@ionic/app-scripts/package.json
+811 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@ionic/cli-framework/package.json
+812 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@ionic/cli-utils/package.json
+813 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@ionic/discover/package.json
+814 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@ionic/storage/package.json
+815 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@angular/common/package.json
+816 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@angular/compiler/package.json
+817 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@angular/compiler-cli/package.json
+818 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@angular/core/package.json
+819 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@angular/forms/package.json
+820 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@angular/http/package.json
+821 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@angular/platform-browser/package.json
+822 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@angular/platform-browser-dynamic/package.json
+823 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@angular/tsc-wrapped/package.json
+824 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@ionic-native/background-mode/package.json
+825 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@ionic-native/browser-tab/package.json
+826 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@ionic-native/call-number/package.json
+827 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@ionic-native/camera/package.json
+828 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@ionic-native/core/package.json
+829 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@ionic-native/diagnostic/package.json
+830 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@ionic-native/firebase/package.json
+831 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@ionic-native/google-maps/package.json
+832 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@ionic-native/http/package.json
+833 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@ionic-native/in-app-browser/package.json
+834 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@ionic-native/location-accuracy/package.json
+835 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@ionic-native/native-page-transitions/package.json
+836 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@ionic-native/onesignal/package.json
+837 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@ionic-native/paypal/package.json
+838 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@ionic-native/social-sharing/package.json
+839 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@ionic-native/splash-screen/package.json
+840 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@ionic-native/status-bar/package.json
+841 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@ionic-native/stripe/package.json
+842 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@ionic-native/vibration/package.json
+843 verbose installManyTop reading scoped package data from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/@types/localforage/package.json
+844 info package.json copy-descriptor@0.1.1 No README data
+845 info package.json dom-serializer@0.1.0 No README data
+846 info package.json estraverse@4.2.0 No README data
+847 info package.json get-value@2.0.6 No README data
+848 info package.json jsesc@1.3.0 No README data
+849 info package.json object-copy@0.1.0 No README data
+850 info package.json output-file-sync@1.1.2 No README data
+851 info package.json pegjs@0.10.0 No README data
+852 info package.json setimmediate@1.0.5 No README data
+853 info package.json static-extend@0.1.2 No README data
+854 info package.json @ionic/storage@2.0.1 No README data
+855 info package.json @angular/tsc-wrapped@4.1.3 No README data
+856 info package.json array-unique@0.2.1 license should be a valid SPDX license expression
+857 info package.json assert@1.4.1 assert is also the name of a node core module.
+858 info package.json async-foreach@0.1.3 No license field.
+859 info package.json base64-arraybuffer@0.1.5 No license field.
+860 info package.json base62@0.1.1 No license field.
+861 info package.json better-assert@1.0.2 No license field.
+862 info package.json blob@0.0.4 No license field.
+863 info package.json body@5.1.0 No license field.
+864 info package.json browserify-fs@1.0.0 No license field.
+865 info package.json buffer@4.9.1 buffer is also the name of a node core module.
+866 info package.json bytes@1.0.0 No license field.
+867 info package.json call-number@1.0.4 license should be a valid SPDX license expression
+868 info package.json callsite@1.0.0 No repository field.
+869 info package.json callsite@1.0.0 No license field.
+870 info package.json component-bind@1.0.0 No license field.
+871 info package.json component-inherit@0.0.3 No license field.
+872 info package.json console-browserify@1.1.0 No license field.
+873 info package.json continuable-cache@0.3.1 No license field.
+874 info package.json cordova-plugin-accountkit@1.4.0 No license field.
+875 info package.json cordova-plugin-background-mode@0.7.2 license should be a valid SPDX license expression
+876 info package.json cordova-plugin-browsertab@0.2.0 No repository field.
+877 info package.json cordova-plugin-googlemaps@2.4.4 license should be a valid SPDX license expression
+878 info package.json cordova-plugin-ionic-wkkeyboard@1.1.15 license should be a valid SPDX license expression
+879 info package.json css-select@1.0.0 license should be a valid SPDX license expression
+880 info package.json css-what@1.0.0 license should be a valid SPDX license expression
+881 info package.json date-now@0.1.4 No license field.
+882 info package.json dev-ip@1.0.1 No license field.
+883 info package.json doctrine@0.7.2 No license field.
+884 info package.json domelementtype@1.3.0 No license field.
+885 info package.json domhandler@2.3.0 No license field.
+886 info package.json domutils@1.4.3 No license field.
+887 info package.json eazy-logger@3.0.2 No license field.
+888 info package.json easy-extender@2.3.4 No license field.
+889 info package.json enhanced-resolve@3.4.1 No license field.
+890 info package.json entities@1.1.1 license should be a valid SPDX license expression
+891 info package.json error@7.0.2 No license field.
+892 info package.json esprima-fb@3001.1.0-dev-harmony-fb No license field.
+893 info package.json esutils@2.0.2 No license field.
+894 info package.json events@1.1.1 events is also the name of a node core module.
+895 info package.json fs@0.0.1-security fs is also the name of a node core module.
+896 info package.json fwd-stream@1.0.4 No license field.
+897 info package.json glob-base@0.3.0 license should be a valid SPDX license expression
+898 info package.json has-binary2@1.0.3 No repository field.
+899 info package.json indexof@0.0.1 No repository field.
+900 info package.json indexof@0.0.1 No license field.
+901 info package.json ionic-plugin-keyboard@2.2.1 license should be a valid SPDX license expression
+902 info package.json is@0.2.7 No license field.
+903 info package.json is-object@0.1.2 No license field.
+904 info package.json is-primitive@2.0.0 license should be a valid SPDX license expression
+905 info package.json json-schema@0.2.3 No license field.
+906 info package.json jsonify@0.0.0 license should be a valid SPDX license expression
+907 info package.json jstransform@3.0.0 No license field.
+908 info package.json level-blobs@0.1.7 No license field.
+909 info package.json level-filesystem@1.2.0 No license field.
+910 info package.json level-hooks@4.5.0 No license field.
+911 info package.json limiter@1.1.3 No license field.
+912 info package.json localforage-cordovasqlitedriver@1.5.0 No license field.
+913 info package.json longest@1.0.1 license should be a valid SPDX license expression
+914 info package.json mx.ferreyra.callnumber@0.0.2 license should be a valid SPDX license expression
+915 info package.json nomnom@1.6.2 No license field.
+916 info package.json nth-check@1.0.1 license should be a valid SPDX license expression
+917 info package.json object-component@0.0.3 No repository field.
+918 info package.json object-component@0.0.3 No license field.
+919 info package.json options@0.0.6 No license field.
+920 info package.json path@0.12.7 path is also the name of a node core module.
+921 info package.json process@0.11.10 process is also the name of a node core module.
+922 info package.json preserve@0.2.0 license should be a valid SPDX license expression
+923 info package.json punycode@1.4.1 punycode is also the name of a node core module.
+924 info package.json querystring@0.2.0 querystring is also the name of a node core module.
+925 info package.json querystring@0.2.0 No license field.
+926 info package.json rechoir@0.6.2 No license field.
+927 info package.json querystring-es3@0.2.1 No license field.
+928 info package.json repeat-element@1.1.2 license should be a valid SPDX license expression
+929 info package.json resp-modifier@6.0.2 No license field.
+930 info package.json rx-lite@4.0.8 No license field.
+931 info package.json rx-lite-aggregates@4.0.8 No license field.
+932 info package.json safe-json-parse@1.0.1 No license field.
+933 info package.json sntp@1.0.9 No license field.
+934 info package.json stdout-stream@1.4.0 No license field.
+935 info package.json string-template@0.2.1 No license field.
+936 info package.json string_decoder@0.10.31 string_decoder is also the name of a node core module.
+937 info package.json timers-browserify@2.0.10 No license field.
+938 info package.json to-array@0.1.4 No license field.
+939 info package.json underscore@1.4.4 No license field.
+940 info package.json url@0.11.0 url is also the name of a node core module.
+941 info package.json util@0.10.3 util is also the name of a node core module.
+942 info package.json v8flags@2.1.1 No license field.
+943 info package.json wordwrap@0.0.2 license should be a valid SPDX license expression
+944 info package.json window-size@0.1.0 No license field.
+945 info package.json xmldom@0.1.27 No license field.
+946 info package.json xmlhttprequest-ssl@1.5.5 No license field.
+947 info package.json @ionic/cli-framework@0.1.3 No repository field.
+948 verbose readDependencies loading dependencies from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/package.json
+949 silly cache add args [ 'mx.ferreyra.callnumber@0.0.2', null ]
+950 verbose cache add spec mx.ferreyra.callnumber@0.0.2
+951 silly cache add parsed spec Result {
+951 silly cache add   raw: 'mx.ferreyra.callnumber@0.0.2',
+951 silly cache add   scope: null,
+951 silly cache add   name: 'mx.ferreyra.callnumber',
+951 silly cache add   rawSpec: '0.0.2',
+951 silly cache add   spec: '0.0.2',
+951 silly cache add   type: 'version' }
+952 silly addNamed mx.ferreyra.callnumber@0.0.2
+953 verbose addNamed "0.0.2" is a plain semver version for mx.ferreyra.callnumber
+954 silly mapToRegistry name mx.ferreyra.callnumber
+955 silly mapToRegistry using default registry
+956 silly mapToRegistry registry https://registry.npmjs.org/
+957 silly mapToRegistry data Result {
+957 silly mapToRegistry   raw: 'mx.ferreyra.callnumber',
+957 silly mapToRegistry   scope: null,
+957 silly mapToRegistry   name: 'mx.ferreyra.callnumber',
+957 silly mapToRegistry   rawSpec: '',
+957 silly mapToRegistry   spec: 'latest',
+957 silly mapToRegistry   type: 'tag' }
+958 silly mapToRegistry uri https://registry.npmjs.org/mx.ferreyra.callnumber
+959 verbose addNameVersion registry:https://registry.npmjs.org/mx.ferreyra.callnumber not in flight; fetching
+960 verbose request uri https://registry.npmjs.org/mx.ferreyra.callnumber
+961 verbose request no auth needed
+962 info attempt registry request try #1 at 13:01:16
+963 verbose request id 086a16859733f9df
+964 verbose etag W/"6ced2551423b79de4919acaf6f109fd9"
+965 verbose lastModified Sun, 27 May 2018 08:53:54 GMT
+966 http request GET https://registry.npmjs.org/mx.ferreyra.callnumber
+967 http 304 https://registry.npmjs.org/mx.ferreyra.callnumber
+968 verbose headers { date: 'Sun, 05 May 2019 12:01:19 GMT',
+968 verbose headers   connection: 'keep-alive',
+968 verbose headers   'set-cookie':
+968 verbose headers    [ '__cfduid=db6cf4f8c23535ed63c1a454e3794f2451557057678; expires=Mon, 04-May-20 12:01:18 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+968 verbose headers   'cf-cache-status': 'REVALIDATED',
+968 verbose headers   'cache-control': 'max-age=300',
+968 verbose headers   'cf-ray': '4d228f1b28aac4f4-LOS',
+968 verbose headers   etag: '"6ced2551423b79de4919acaf6f109fd9"',
+968 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+968 verbose headers   'last-modified': 'Sun, 27 May 2018 08:53:54 GMT',
+968 verbose headers   vary: 'accept-encoding, accept',
+968 verbose headers   server: 'cloudflare' }
+969 silly get cb [ 304,
+969 silly get   { date: 'Sun, 05 May 2019 12:01:19 GMT',
+969 silly get     connection: 'keep-alive',
+969 silly get     'set-cookie':
+969 silly get      [ '__cfduid=db6cf4f8c23535ed63c1a454e3794f2451557057678; expires=Mon, 04-May-20 12:01:18 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+969 silly get     'cf-cache-status': 'REVALIDATED',
+969 silly get     'cache-control': 'max-age=300',
+969 silly get     'cf-ray': '4d228f1b28aac4f4-LOS',
+969 silly get     etag: '"6ced2551423b79de4919acaf6f109fd9"',
+969 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+969 silly get     'last-modified': 'Sun, 27 May 2018 08:53:54 GMT',
+969 silly get     vary: 'accept-encoding, accept',
+969 silly get     server: 'cloudflare' } ]
+970 verbose etag https://registry.npmjs.org/mx.ferreyra.callnumber from cache
+971 verbose get saving mx.ferreyra.callnumber to /Users/chineduetoh/.npm/registry.npmjs.org/mx.ferreyra.callnumber/.cache.json
+972 verbose correctMkdir /Users/chineduetoh/.npm correctMkdir not in flight; initializing
+973 silly cache afterAdd mx.ferreyra.callnumber@0.0.2
+974 verbose afterAdd /Users/chineduetoh/.npm/mx.ferreyra.callnumber/0.0.2/package/package.json not in flight; writing
+975 verbose correctMkdir /Users/chineduetoh/.npm correctMkdir not in flight; initializing
+976 verbose afterAdd /Users/chineduetoh/.npm/mx.ferreyra.callnumber/0.0.2/package/package.json written
+977 silly install resolved [ { name: 'mx.ferreyra.callnumber',
+977 silly install resolved     version: '0.0.2',
+977 silly install resolved     description: 'Call Number from Cordova Application',
+977 silly install resolved     cordova: { id: 'mx.ferreyra.callnumber', platforms: [Array] },
+977 silly install resolved     repository:
+977 silly install resolved      { type: 'git',
+977 silly install resolved        url: 'git+https://github.com/Rohfosho/CordovaCallNumberPlugin.git' },
+977 silly install resolved     keywords:
+977 silly install resolved      [ 'cordova',
+977 silly install resolved        'call',
+977 silly install resolved        'dialer',
+977 silly install resolved        'phonegap',
+977 silly install resolved        'ecosystem:cordova',
+977 silly install resolved        'cordova-ios',
+977 silly install resolved        'cordova-android' ],
+977 silly install resolved     author: '',
+977 silly install resolved     license: 'Apache 2.0',
+977 silly install resolved     bugs:
+977 silly install resolved      { url: 'https://github.com/Rohfosho/CordovaCallNumberPlugin/issues' },
+977 silly install resolved     homepage: 'https://github.com/Rohfosho/CordovaCallNumberPlugin#readme',
+977 silly install resolved     _id: 'mx.ferreyra.callnumber@0.0.2',
+977 silly install resolved     _npmVersion: '5.5.1',
+977 silly install resolved     _nodeVersion: '8.9.1',
+977 silly install resolved     _npmUser: { name: 'ladeiras', email: 'jtladeiras@gmail.com' },
+977 silly install resolved     dist:
+977 silly install resolved      { integrity: 'sha512-J9FJiMrfWG9Q8AQEz/cgYLcXTTD/Z5+vfq29hn8K7yVWjxkSzr7zFi7Dpn8wcv2iKHBHDJY+U0z8yoAzDugXMw==',
+977 silly install resolved        shasum: 'dda64ced1d5a19e801d5c64f17f02bcd0599cb63',
+977 silly install resolved        tarball: 'https://registry.npmjs.org/mx.ferreyra.callnumber/-/mx.ferreyra.callnumber-0.0.2.tgz' },
+977 silly install resolved     maintainers: [ [Object] ],
+977 silly install resolved     _npmOperationalInternal:
+977 silly install resolved      { host: 's3://npm-registry-packages',
+977 silly install resolved        tmp: 'tmp/mx.ferreyra.callnumber-0.0.2.tgz_1511123050920_0.37608201638795435' },
+977 silly install resolved     directories: {},
+977 silly install resolved     _shasum: 'dda64ced1d5a19e801d5c64f17f02bcd0599cb63',
+977 silly install resolved     _resolved: 'https://registry.npmjs.org/mx.ferreyra.callnumber/-/mx.ferreyra.callnumber-0.0.2.tgz',
+977 silly install resolved     _from: 'mx.ferreyra.callnumber@0.0.2',
+977 silly install resolved     readme: 'ERROR: No README data found!' } ]
+978 info install mx.ferreyra.callnumber@0.0.2 into /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User
+979 info installOne mx.ferreyra.callnumber@0.0.2
+980 verbose installOne of mx.ferreyra.callnumber to /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User not in flight; installing
+981 verbose correctMkdir /Users/chineduetoh/.npm/_locks correctMkdir not in flight; initializing
+982 verbose lock using /Users/chineduetoh/.npm/_locks/mx-ferreyra-callnumber-6d61253525c26342.lock for /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/mx.ferreyra.callnumber
+983 silly install write writing mx.ferreyra.callnumber 0.0.2 to /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/mx.ferreyra.callnumber
+984 verbose unbuild node_modules/mx.ferreyra.callnumber
+985 info preuninstall mx.ferreyra.callnumber@0.0.2
+986 info uninstall mx.ferreyra.callnumber@0.0.2
+987 verbose unbuild rmStuff mx.ferreyra.callnumber@0.0.2 from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules
+988 info postuninstall mx.ferreyra.callnumber@0.0.2
+989 silly gentlyRm /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/mx.ferreyra.callnumber is being purged from base /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User
+990 verbose gentlyRm don't care about contents; nuking /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/mx.ferreyra.callnumber
+991 silly vacuum-fs purging /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/mx.ferreyra.callnumber
+992 silly vacuum-fs quitting because other entries in /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules
+993 verbose tar unpack /Users/chineduetoh/.npm/mx.ferreyra.callnumber/0.0.2/package.tgz
+994 verbose tar unpacking to /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/mx.ferreyra.callnumber
+995 silly gentlyRm /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/mx.ferreyra.callnumber is being purged
+996 verbose gentlyRm don't care about contents; nuking /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/mx.ferreyra.callnumber
+997 silly gunzTarPerm modes [ '755', '644' ]
+998 silly gunzTarPerm extractEntry package.json
+999 silly gunzTarPerm extractEntry LICENSE
+1000 silly gunzTarPerm extractEntry plugin.xml
+1001 silly gunzTarPerm extractEntry README.md
+1002 silly gunzTarPerm extractEntry src/android/CFCallNumber.java
+1003 silly gunzTarPerm extractEntry src/ios/CFCallNumber.h
+1004 silly gunzTarPerm extractEntry src/ios/CFCallNumber.m
+1005 silly gunzTarPerm extractEntry www/CallNumber.js
+1006 verbose write writing to /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/mx.ferreyra.callnumber/package.json
+1007 info preinstall mx.ferreyra.callnumber@0.0.2
+1008 verbose readDependencies loading dependencies from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/mx.ferreyra.callnumber/package.json
+1009 verbose readDependencies loading dependencies from /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/mx.ferreyra.callnumber/package.json
+1010 silly install resolved []
+1011 verbose about to build /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/mx.ferreyra.callnumber
+1012 info build /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/mx.ferreyra.callnumber
+1013 info linkStuff mx.ferreyra.callnumber@0.0.2
+1014 silly linkStuff mx.ferreyra.callnumber@0.0.2 has /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules as its parent node_modules
+1015 verbose linkBins mx.ferreyra.callnumber@0.0.2
+1016 verbose linkMans mx.ferreyra.callnumber@0.0.2
+1017 verbose rebuildBundles mx.ferreyra.callnumber@0.0.2
+1018 info install mx.ferreyra.callnumber@0.0.2
+1019 info postinstall mx.ferreyra.callnumber@0.0.2
+1020 verbose unlock done using /Users/chineduetoh/.npm/_locks/mx-ferreyra-callnumber-6d61253525c26342.lock for /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/mx.ferreyra.callnumber
+1021 verbose validateInstall loading /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/package.json for validation
+1022 verbose stack Error: The package @ionic-native/core@3.14.0 does not satisfy its siblings' peerDependencies requirements!
+1022 verbose stack     at /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/npm/lib/install.js:125:32
+1022 verbose stack     at /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/npm/lib/install.js:268:7
+1022 verbose stack     at /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+1022 verbose stack     at /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+1022 verbose stack     at cb (/Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+1022 verbose stack     at /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+1022 verbose stack     at cb (/Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+1022 verbose stack     at /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+1022 verbose stack     at cb (/Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+1022 verbose stack     at /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+1023 verbose cwd /Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User
+1024 error Darwin 18.5.0
+1025 error argv "/usr/local/bin/node" "/Users/chineduetoh/Desktop/VSCODE PROJECTS/Restuarant/User/node_modules/.bin/npm" "install" "mx.ferreyra.callnumber@0.0.2" "--production" "--no-save"
+1026 error node v8.11.2
+1027 error npm  v2.15.12
+1028 error code EPEERINVALID
+1029 error peerinvalid The package @ionic-native/core@3.14.0 does not satisfy its siblings' peerDependencies requirements!
+1029 error peerinvalid Peer @ionic-native/background-mode@4.9.1 wants @ionic-native/core@^4.2.0
+1029 error peerinvalid Peer @ionic-native/browser-tab@4.9.1 wants @ionic-native/core@^4.2.0
+1029 error peerinvalid Peer @ionic-native/call-number@4.9.1 wants @ionic-native/core@^4.2.0
+1029 error peerinvalid Peer @ionic-native/camera@3.14.0 wants @ionic-native/core@^3.6.0
+1029 error peerinvalid Peer @ionic-native/diagnostic@3.14.0 wants @ionic-native/core@^3.6.0
+1029 error peerinvalid Peer @ionic-native/firebase@4.9.1 wants @ionic-native/core@^4.2.0
+1029 error peerinvalid Peer @ionic-native/google-maps@4.2.1 wants @ionic-native/core@^3.6.0 || >=4.0.0
+1029 error peerinvalid Peer @ionic-native/http@3.14.0 wants @ionic-native/core@^3.6.0
+1029 error peerinvalid Peer @ionic-native/in-app-browser@4.9.1 wants @ionic-native/core@^4.2.0
+1029 error peerinvalid Peer @ionic-native/location-accuracy@3.14.0 wants @ionic-native/core@^3.6.0
+1029 error peerinvalid Peer @ionic-native/native-page-transitions@3.14.0 wants @ionic-native/core@^3.6.0
+1029 error peerinvalid Peer @ionic-native/onesignal@4.9.1 wants @ionic-native/core@^4.2.0
+1029 error peerinvalid Peer @ionic-native/paypal@4.9.1 wants @ionic-native/core@^4.2.0
+1029 error peerinvalid Peer @ionic-native/social-sharing@4.9.1 wants @ionic-native/core@^4.2.0
+1029 error peerinvalid Peer @ionic-native/splash-screen@3.12.1 wants @ionic-native/core@^3.6.0
+1029 error peerinvalid Peer @ionic-native/status-bar@3.12.1 wants @ionic-native/core@^3.6.0
+1029 error peerinvalid Peer @ionic-native/stripe@4.9.1 wants @ionic-native/core@^4.2.0
+1029 error peerinvalid Peer @ionic-native/vibration@4.9.1 wants @ionic-native/core@^4.2.0
+1030 verbose exit [ 1, true ]

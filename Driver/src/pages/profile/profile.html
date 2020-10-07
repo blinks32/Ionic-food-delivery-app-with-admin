@@ -1,0 +1,276 @@
+<ion-header no-border>
+  <ion-navbar color="nav-color">
+    <ion-title>{{lp.translate()[0].d2}}</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="logOut()">
+        <ion-icon  name="ios-log-out"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="o-scroll" padding>
+  
+    <ion-list no-lines >
+      <ion-item text-center *ngIf="ph.picture" (click)="choosePic()">
+        <img class="profile-pic" [src]="ph.picture"/>
+        <ion-icon  name="ios-create"></ion-icon>
+      </ion-item>
+    </ion-list>
+    <ion-item-divider>{{lp.translate()[0].i3}}</ion-item-divider>
+    <ion-list  no-lines>
+    <ion-item>
+      <ion-grid>
+        <ion-row>
+          <ion-col padding col-6>
+              <ion-icon   name="ios-mail"></ion-icon>
+              {{lp.translate()[0].f10}}
+          </ion-col>
+          <ion-col padding col-6 *ngIf="ph.user.email">
+              <ion-icon  ></ion-icon>
+            {{ph.user?.email}}
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+    
+    <ion-item (click)="updateName()">
+      <ion-grid>
+        <ion-row>
+          <ion-col padding col-6>
+              <ion-icon   name="ios-contact"></ion-icon>
+              {{lp.translate()[0].h2}}
+          </ion-col>
+          <ion-col padding col-6 *ngIf="ph.name">
+              <ion-icon  name="ios-create"></ion-icon>
+            {{ph.name}}
+          </ion-col>
+          <ion-col padding col-6 *ngIf="!ph.name && name">
+            <span>
+              <ion-icon  name="ios-create"></ion-icon>
+              {{ph.name}}
+            </span>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+
+    <ion-item (click)="updateNumber()">
+      <ion-grid>
+        <ion-row>
+          <ion-col padding col-6>
+              <ion-icon   name="ios-call"></ion-icon>
+              {{lp.translate()[0].h1}}
+          </ion-col>
+          <ion-col padding col-6 *ngIf="ph.number">
+            <ion-icon   name="ios-create"></ion-icon>
+            {{ph.number}}
+          </ion-col>
+          <ion-col padding col-6 class="placeholder-profile" *ngIf="!ph.number">
+            <span>
+            <ion-icon   name="ios-create"></ion-icon>
+            {{ph.number}}
+            </span>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+
+  </ion-list>
+
+  <ion-item-divider>{{lp.translate()[0].i4}}</ion-item-divider>
+
+  <ion-list no-lines >
+      <ion-item (click)="updateAccountNumber()">
+          <ion-grid>
+            <ion-row>
+              <ion-col padding col-6>
+                  <ion-icon   name="ios-paper-outline"></ion-icon>
+                  {{lp.translate()[0].h10}}
+              </ion-col>
+              <ion-col padding col-6 *ngIf="ph.accountNum">
+                <ion-icon   name="ios-create"></ion-icon>
+                {{ph.accountNum}}
+              </ion-col>
+              <ion-col padding col-6 class="placeholder-profile" *ngIf="!ph.accountNum">
+                <span>
+                <ion-icon   name="ios-create"></ion-icon>
+              {{lp.translate()[0].i5}} {{lp.translate()[0].h10}}
+                </span>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-item>
+        
+        <ion-item (click)="updateBank()">
+            <ion-grid>
+              <ion-row>
+                <ion-col padding col-6>
+                    <ion-icon   name="ios-podium"></ion-icon>
+                    {{lp.translate()[0].i1}}
+                </ion-col>
+                <ion-col padding col-6 *ngIf="ph.bank">
+                  <ion-icon   name="ios-create"></ion-icon>
+                  {{ph.bank}}
+                </ion-col>
+                <ion-col padding col-6 class="placeholder-profile" *ngIf="!ph.bank">
+                  <span>
+                  <ion-icon  name="ios-create"></ion-icon>
+                {{lp.translate()[0].i5}} {{lp.translate()[0].i1}}
+                  </span>
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+          </ion-item>
+  </ion-list>
+  <ion-item-divider>{{lp.translate()[0].i6}}</ion-item-divider>
+  <ion-list>
+    <!-- <ion-item (click)="updateCarModel()">
+      <ion-grid>
+        <ion-row>
+          <ion-col padding col-6>
+              <ion-icon   name="ios-car-outline"></ion-icon>
+              {{lp.translate()[0].h6}}
+          </ion-col>
+          <ion-col padding col-6 *ngIf="ph.carType">
+            <ion-icon   name="ios-create"></ion-icon>
+            {{ph.carType}}
+          </ion-col>
+          <ion-col padding col-6 class="placeholder-profile" *ngIf="!ph.carType">
+            <span>
+            <ion-icon  name="ios-create"></ion-icon>
+          {{lp.translate()[0].i5}} {{lp.translate()[0].h6}}
+            </span>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item> -->
+
+    <ion-item (click)="updateCaryear()">
+      <ion-grid>
+        <ion-row>
+          <ion-col padding col-6>
+              <ion-icon name="ios-calendar"></ion-icon>
+              {{lp.translate()[0].h7}}
+          </ion-col>
+          <ion-col padding col-6 *ngIf="ph.caryear">
+            <ion-icon   name="ios-create"></ion-icon>
+            {{ph.caryear}}
+          </ion-col>
+          <ion-col padding col-6 class="placeholder-profile" *ngIf="!ph.caryear">
+            <span>
+            <ion-icon  name="ios-create"></ion-icon>
+          {{lp.translate()[0].i5}} {{lp.translate()[0].h7}}
+            </span>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+
+    <ion-item (click)="updatePlate()">
+      <ion-grid>
+        <ion-row>
+          <ion-col padding col-6>
+              <ion-icon   name="ios-closed-captioning-outline"></ion-icon>
+              {{lp.translate()[0].h8}}
+          </ion-col>
+          <ion-col padding col-6 *ngIf="ph.plate">
+            <ion-icon   name="ios-create"></ion-icon>
+            {{ph.plate}}
+          </ion-col>
+          <ion-col padding col-6 class="placeholder-profile" *ngIf="!ph.plate">
+            <span>
+            <ion-icon  name="ios-create"></ion-icon>
+          {{lp.translate()[0].i5}} {{lp.translate()[0].h8}}
+            </span>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+
+    <ion-item (click)="updateSeat()">
+      <ion-grid>
+        <ion-row>
+          <ion-col padding col-6>
+              <ion-icon   name="ios-woman-outline"></ion-icon>
+              {{lp.translate()[0].h9}}
+          </ion-col>
+          <ion-col padding col-6 *ngIf="ph.seat">
+            <ion-icon   name="ios-create"></ion-icon>
+            {{ph.seat}}
+          </ion-col>
+          <ion-col padding col-6 class="placeholder-profile" *ngIf="!ph.seat">
+            <span>
+            <ion-icon  name="ios-create"></ion-icon>
+          {{lp.translate()[0].i5}} {{lp.translate()[0].h9}}
+            </span>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+
+    <!-- <ion-item (click)="updatePrice()">
+        <ion-grid>
+          <ion-row>
+            <ion-col padding col-6>
+                <ion-icon   name="ios-cash-outline"></ion-icon>
+              Ride Price
+            </ion-col>
+            <ion-col padding col-6 *ngIf="ph.ridePrice">
+              <ion-icon   name="ios-create"></ion-icon>
+              {{ph.ridePrice}}
+            </ion-col>
+            <ion-col padding col-6 class="placeholder-profile" *ngIf="!ph.ridePrice">
+              <span>
+              <ion-icon  name="ios-create"></ion-icon>
+            {{lp.translate()[0].i5}} ridePrice
+              </span>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-item> -->
+<!-- 
+    <ion-item>
+        <ion-label padding color='deep'>
+            <ion-icon name="ios-car-outline"></ion-icon>
+            {{lp.translate()[0].g7}}
+        </ion-label>
+        <ion-select [(ngModel)]="gender" (ionChange)="onSelectChange($event)">
+            <ion-option  value="1" selected>{{lp.translate()[0].g8}}</ion-option> -->
+            <!-- <ion-option  value="2">Bus Car</ion-option> -->
+            <!-- <ion-option  value="2">{{lp.translate()[0].g9}}</ion-option>
+        </ion-select>
+      </ion-item> -->
+
+  </ion-list>
+
+  
+
+  <ion-item-divider>{{lp.translate()[0].i7}}</ion-item-divider>
+  <ion-list>
+    <ion-item (click)="updateCity()">
+      <ion-grid>
+        <ion-row>
+          <ion-col padding col-6>
+              <ion-icon   name="ios-analytics-outline"></ion-icon>
+              {{lp.translate()[0].h4}}
+          </ion-col>
+          <ion-col padding col-6 *ngIf="ph.city">
+            <ion-icon   name="ios-create"></ion-icon>
+            {{ph.city}}
+          </ion-col>
+          <ion-col padding col-6 class="placeholder-profile" *ngIf="!ph.city">
+            <span>
+            <ion-icon  name="ios-create"></ion-icon>
+          {{lp.translate()[0].i5}} {{lp.translate()[0].h4}}
+            </span>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+  </ion-list>
+  <!-- <button ion-button block (click)="logOut()">
+    Sign Out
+  </button> -->
+
+</ion-content>

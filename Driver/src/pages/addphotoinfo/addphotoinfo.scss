@@ -1,0 +1,16 @@
+page-addphotoinfo {
+    .selfie{
+        display:flex; 
+        flex-direction:column;
+        justify-content:center
+      }
+
+      #my-pic{
+        width: 90% !important;
+        height: 45% !important;
+        border-radius: $border;
+        border: 1px solid color($colors, light, base);
+        vertical-align: center;
+        margin: 5%;
+      }
+}
