@@ -4,7 +4,12 @@
 </p>    
 
 <p align="center">
-<strong><a href="https://drive.google.com/drive/folders/1Npxn5ZBY1Rv9X_oyBvk7nblq5IhN5jeU"> VIEW DEMO </a></strong>
+<strong><a href="https://play.google.com/store/apps/details?id=com.foodtiger.demo"> USER DEMO </a></strong>
+<p align="center">
+	
+
+<p align="center">
+<strong><a href="https://play.google.com/store/apps/details?id=com.mobidonia.foodtigerdriver"> DRIVER DEMO </a></strong>
 <p align="center">
 	
 <p align="center">
